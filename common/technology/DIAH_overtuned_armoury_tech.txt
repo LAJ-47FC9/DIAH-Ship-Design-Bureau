@@ -1,0 +1,7 @@
+tech_DIAH_overtuned_GWD = {
+	cost = @tier3cost3
+	area = physics
+	tier = 3
+	category = { field_manipulation }
+	weight = 0
+}

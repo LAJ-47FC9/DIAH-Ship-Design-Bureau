@@ -7,4 +7,13 @@
 
 # Techs
  tech_DIAH_overtuned_GWD: "Shield Deflection Refactoring"
- tech_DIAH_overtuned_GWD: "The GWD is the first project of the Futuristics Division to be approved by the government. Rather than traditional shield systems, which are focused on stopping projectiles entirely, the GWD uses §Sgravitational waves§! to §Sdeflect§! incoming projectiles and diffuse beam weapons, in the hope of causing them to miss entirely, or at least blunt their damage upon impact."
+ tech_DIAH_overtuned_GWD_desc: "The GWD is the first project of the Futuristics Division to be approved by the government. Rather than traditional shield systems, which are focused on stopping projectiles entirely, the GWD uses §Sgravitational waves§! to §Sdeflect§! incoming projectiles and diffuse beam weapons, in the hope of causing them to miss entirely, or at least blunt their damage upon impact."
+
+ tech_DIAH_overtuned_APP: "Alternative Propulsion Proposals"
+ tech_DIAH_overtuned_APP_desc: "All sublight engines work on the principle of, in essence, throwing hot bits of stuff out the back. This proposal from the Futuristics Division aims to change that."
+ tech_DIAH_overtuned_sublight_microjump: "Short-Scale Jumps"
+ tech_DIAH_overtuned_sublight_microjump_desc: "Utilising jump technology on a smaller scale, this engine concept aims to propel a ship across a system through a series of micro-jumps, each no more than a few thousand kilometres. Unwanted encounters with extradimensional beings have been deemed "highly unlikely" thanks to the relatively short distance of jumps."
+ tech_DIAH_overtuned_sublight_slowwarp: "Warp Theory"
+ tech_DIAH_overtuned_sublight_slowwarp_desc: "As it turns out, Alcubierre was half-right. While faster-than-light space warping remains out of our reach, the Futuristics Division have provided us with the next-best thing: improved in-system flight! Use the power of altering spacetime to move across systems with speed unheard of. Refinements to the design have eliminated the possibility of the warp field catching interplanetary debris and firing it like a relativistic shotgun upon the warp bubble collapsing."
+ tech_DIAH_overtuned_sublight_masseffect: "Mass Effect Fields"
+ tech_DIAH_overtuned_sublight_masseffect_desc: "Inertial dampening technology makes use of fields that temporarily reduce an object's inertial mass, allowing them to more easily gain momentum. You'd think the propulsion capabilities of such a technology would be obvious. Frankly, you should be offended that it took this long to come up with."

@@ -1,0 +1,348 @@
+@section_cost = 30
+@adv_section_cost = 45
+
+#################
+# Vanilla Hulls #
+#################
+# Interceptor (Vanilla) - S3
+#ship_section_template = {
+#	key = "CORVETTE_MID_S3"
+#	ship_size = corvette
+#	fits_on_slot = mid
+#	should_draw_components = yes
+#	entity = "corvette_S3_entity"
+#	icon = "GFX_ship_part_core_mid"
+#	ai_tags = { gunship artillery brawler brawler_stealth }
+#
+#	component_slot = {
+#		name = "SMALL_GUN_01"
+#		template = "small_turret"
+#		locatorname = "small_gun_01"
+#	}
+#
+#	component_slot = {
+#		name = "SMALL_GUN_02"
+#		template = "small_turret"
+#		locatorname = "small_gun_02"
+#	}
+#
+#	component_slot = {
+#		name = "SMALL_GUN_03"
+#		template = "small_turret"
+#		locatorname = "small_gun_03"
+#	}
+#
+#	small_utility_slots = 3
+#	aux_utility_slots = 1
+#
+#	ai_weight = {
+#		modifier = {
+#			factor = 10.0
+#			OR = {
+#				is_preferred_weapons = weapon_type_kinetic
+#				is_preferred_weapons = weapon_type_energy
+#			}
+#		}
+#		modifier = {
+#			factor = 0.1
+#			NOR = {
+#				is_preferred_weapons = weapon_type_kinetic
+#				is_preferred_weapons = weapon_type_energy
+#			}
+#		}
+#	}
+#
+#	resources = {
+#		category = ship_sections
+#		cost = {
+#			alloys = @section_cost
+#		}
+#	}
+#}
+
+# Picket Ship (Vanilla) - S2 P1
+#ship_section_template = {
+#	key = "CORVETTE_MID_S2PD1"
+#	ship_size = corvette
+#	fits_on_slot = mid
+#	should_draw_components = yes
+#	entity = "corvette_S3_entity"
+#	icon = "GFX_ship_part_core_mid"
+#	ai_tags = { screen }
+#
+#	ai_weight = {
+#		modifier = {
+#			factor = 10.0
+#			is_ai = yes
+#			is_preferred_weapons = weapon_type_strike_craft
+#			has_technology = tech_cruisers
+#		}
+#		modifier = {
+#			factor = 0.1
+#			NOT = { is_preferred_weapons = weapon_type_strike_craft }
+#		}
+#	}
+#
+#	component_slot = {
+#		name = "SMALL_GUN_01"
+#		template = "point_defence_turret"
+#		locatorname = "small_gun_01"
+#	}
+#
+#	component_slot = {
+#		name = "SMALL_GUN_02"
+#		template = "small_turret"
+#		locatorname = "small_gun_02"
+#	}
+#
+#	component_slot = {
+#		name = "SMALL_GUN_03"
+#		template = "small_turret"
+#		locatorname = "small_gun_03"
+#	}
+#
+#	small_utility_slots = 3
+#	aux_utility_slots = 1
+#
+#	resources = {
+#		category = ship_sections
+#		cost = {
+#			alloys = @section_cost
+#		}
+#	}
+#}
+
+##################
+# Improved Hulls #
+##################
+# Gunship - M1 S1
+ship_section_template = {
+	key = "DIAH_CORVETTE_MID_M1S1"
+	ship_size = corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { gunship gunship_stealth artillery artillery_stealth brawler brawler_stealth }
+
+	prerequisites = { tech_corvette_hull_1 }
+
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	small_utility_slots = 3
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+##################
+# Advanced Hulls #
+##################
+# Adv. Gunship - M1 upscaled util slots
+ship_section_template = {
+	key = "DIAH_CORVETTE_MID_M1_ADV"
+	ship_size = corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { gunship gunship_stealth artillery artillery_stealth brawler brawler_stealth }
+
+	prerequisites = { tech_corvette_hull_2 }
+
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 2
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @adv_section_cost
+		}
+	}
+}
+
+# Adv. Interceptor - S2 upscaled util slots
+ship_section_template = {
+	key = "DIAH_CORVETTE_MID_S2_ADV"
+	ship_size = corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { gunship brawler brawler_stealth screen }
+
+	prerequisites = { tech_corvette_hull_2 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+
+	medium_utility_slots = 2
+	aux_utility_slots = 1
+
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			OR = {
+				is_preferred_weapons = weapon_type_kinetic
+				is_preferred_weapons = weapon_type_energy
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOR = {
+				is_preferred_weapons = weapon_type_kinetic
+				is_preferred_weapons = weapon_type_energy
+			}
+		}
+	}
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @adv_section_cost
+		}
+	}
+}
+
+# Only memes past here - YOU HAVE BEEN WARNED
+# Schiffsjäger - L1
+ship_section_template = {
+	key = "DIAH_CORVETTE_MID_L1"
+	ship_size = corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { gunship artillery brawler }
+	
+	prerequisites = { tech_corvette_hull_2 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+
+	small_utility_slots = 1
+
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			OR = {
+				is_preferred_weapons = weapon_type_kinetic
+				is_preferred_weapons = weapon_type_energy
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOR = {
+				is_preferred_weapons = weapon_type_kinetic
+				is_preferred_weapons = weapon_type_energy
+			}
+		}
+	}
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @adv_section_cost
+		}
+	}
+}
+
+# Tarngeschütz - L1 A1
+ship_section_template = {
+	key = "DIAH_CORVETTE_MID_L1A1"
+	ship_size = corvette
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { artillery_stealth brawler_stealth }
+	
+	prerequisites = { tech_corvette_hull_2 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "small_gun_01"
+	}
+
+	aux_utility_slots = 1
+
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			OR = {
+				is_preferred_weapons = weapon_type_kinetic
+				is_preferred_weapons = weapon_type_energy
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOR = {
+				is_preferred_weapons = weapon_type_kinetic
+				is_preferred_weapons = weapon_type_energy
+			}
+		}
+	}
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @adv_section_cost
+		}
+	}
+}

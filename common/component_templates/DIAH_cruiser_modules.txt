@@ -1,0 +1,82 @@
+# Empty
+utility_component_template = {
+	key = "DIAH_EMPTY_MODULE"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+
+	component_set = "DIAH_cruiser_modules"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+# Missile Fabrication Module - missile buff
+
+# Rapid Tactical Asset Delivery Module - bombardment buff
+utility_component_template = {
+	key = "DIAH_HELLDIVER_MODULE"
+	size = "small"
+	icon = ""
+	icon_frame = 1
+	power = 0
+
+	ship_modifier = {
+		ship_orbital_bombardment_mult = 400
+		ship_orbital_bombardment_pop_damage_mult = -25
+	}
+
+	prerequisites = { tech_DIAH_cruiser_mod_helldivers }
+	component_set = "DIAH_cruiser_modules"
+}
+
+# Territory Patrol Module - buff in friendly space
+
+# Fleet Tender Module - repair ships
+
+# Enhanced Stealth Module - better cloaking (plus other bonuses?)
+utility_component_template = {
+	key = "DIAH_SNEAKY_MODULE"
+	size = "small"
+	icon = "GFX_ship_part_cloak_3"
+	icon_frame = 1
+	power = 0
+
+	ship_modifier = {
+		ship_cloaking_strength_add = 2
+	}
+
+	prerequisites = { "tech_cloaking_3" }
+	ai_tags = {
+		gunship_stealth
+		explosive_stealth
+		carrier_stealth
+		screen_stealth
+		artillery_stealth
+		brawler_stealth
+		energy_torpedoes_stealth
+	}
+	component_set = "DIAH_cruiser_modules"
+}
+
+# Point Defence Coordination Module - duh
+utility_component_template = {
+	key = "DIAH_PDC_MODULE"
+	size = "small"
+	icon = "GFX_ship_part_aura_targeting_grid"
+	icon_frame = 1
+	power = 1
+
+	ship_modifier = {
+		weapon_role_point_defense_speed_mult = 0.5
+
+	}
+
+	ai_tags = {
+		screen
+		screen_stealth
+	}
+	component_set = "DIAH_cruiser_modules"
+}

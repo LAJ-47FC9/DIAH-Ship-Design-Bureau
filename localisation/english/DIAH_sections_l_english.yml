@@ -1,0 +1,177 @@
+﻿l_english:
+
+###################
+# Tiny Baby Ships #
+###################
+# Tech tooltips
+ TECH_CORVETTE_HULL_1_TITLE: "§HUnlocks Corvette Sections:§! Gunship"
+ TECH_CORVETTE_HULL_2_TITLE: "§HUnlocks Corvette Sections:§! Adv. Gunship, Adv. Interceptor, Tarngeschütz, Schiffsjäger"
+ CONCEPT_DIAH_CORVETTE_MID_M1S1: "Gunship"
+ CONCEPT_DIAH_CORVETTE_MID_M1S1_DESC: "A corvette with one M weapon slot and one S weapon slot."
+ CONCEPT_DIAH_CORVETTE_MID_M1_ADV: "Adv. Gunship"
+ CONCEPT_DIAH_CORVETTE_MID_M1_ADV_DESC: "A corvette with one M weapon slot and two M utility slots."
+
+# Corvette Cores
+ DIAH_CORVETTE_MID_L1: "Schiffsjäger"
+ DIAH_CORVETTE_MID_L1A1: "Tarngeschütz"
+ DIAH_CORVETTE_MID_M1S1: "Gunship"
+ DIAH_CORVETTE_MID_M1_ADV: "Adv. Gunship"
+ DIAH_CORVETTE_MID_S2_ADV: "Adv. Interceptor"
+
+# Frigate Core
+ DIAH_FRIGATE_MID_ADV: "Adv. Missile Boat"
+
+##############
+# Destroyers #
+##############
+# Tech tooltips
+ TECH_DESTROYER_HULL_2_TITLE: "§HUnlocks Destroyer Sections:§! Adv. Gunship Bow, Adv. Picket Ship Bow, Command Stern"
+
+# Destroyer Bows
+ DIAH_DESTROYER_BOW_M1S2_ADV: "Adv. Gunship Bow"
+ DIAH_DESTROYER_BOW_S2P1_ADV: "Adv. Picket Ship Bow"
+
+# Destroyer Sterns
+ DIAH_DESTROYER_STERN_NONE: "Command Stern"
+
+############
+# Cruisers #
+############
+# Tech tooltips
+ TECH_CRUISER_HULL_1_TITLE: "§HUnlocks Cruiser Sections:§! Macross Bow, Interceptor Bow, Macross Core, Interceptor Core, Picket Stern\n§SThis will lead to a more advanced cruiser type, if you have researched Modular Engineering!§!"
+ TECH_CRUISER_HULL_2_TITLE: "§HUnlocks Cruiser Sections:§! Adv. Broadside Bow, Adv. Torpedo Bow, Adv. Interceptor Bow, Adv. Broadside Core, Adv. Missile Core, Adv. Interceptor Core, Command Stern\n§HUnlocks Modular Cruiser Sections:§! Adv. Modular Bow, Adv. Broadside Core, Adv. Missile Core, Adv. Interceptor Core, Command Stern\n§PThis will lead to a powerful cruiser type, if you have researched any X-sized weapon and Zero-Point Power!§!"
+
+# Cruiser Bows
+ DIAH_CRUISER_BOW_H1P2: "Escort Carrier Bow"
+ DIAH_CRUISER_BOW_M2_ADV: "Adv. Broadside Bow"
+ DIAH_CRUISER_BOW_G1S2_ADV: "Adv. Torpedo Bow"
+ DIAH_CRUISER_BOW_G2: "Macross Bow"
+ DIAH_CRUISER_BOW_S2P2: "Interceptor Bow"
+ DIAH_CRUISER_BOW_S2P2_ADV: "Adv. Interceptor Bow"
+
+# Cruiser Cores
+ DIAH_CRUISER_CORE_H1S2P2: "Escort Carrier Core"
+ DIAH_CRUISER_CORE_M3_ADV: "Adv. Broadside Core"
+ DIAH_CRUISER_CORE_G3: "Macross Core"
+ DIAH_CRUISER_CORE_G2S2_ADV: "Adv. Missile Core"
+ DIAH_CRUISER_CORE_S4P2: "Interceptor Core"
+ DIAH_CRUISER_CORE_S4P2_ADV: "Adv. Interceptor Core"
+
+# Cruiser Sterns
+ DIAH_CRUISER_STERN_G1: "Macross Stern"
+ DIAH_CRUISER_STERN_P2: "Picket Stern"
+ DIAH_CRUISER_STERN_NONE: "Command Stern"
+
+# Fomorian Cruisers
+ DIAH_cruiser_xl: "Fomorian Cruiser"
+ DIAH_cruiser_xl_plural: "Fomorian Cruisers"
+
+ DIAH_CRUISER_XL_BOW: "Fomorian Cruiser Bow"
+ DIAH_CRUISER_XL_CORE: "Fomorian Cruiser Core"
+ DIAH_CRUISER_XL_CORE_PS: "Fomorian Power Saver Core"
+ DIAH_CRUISER_XL_STERN: "Fomorian Cruiser Stern"
+
+ tech_DIAH_cruiser_xl: "Fomorian Cruisers"
+ tech_DIAH_cruiser_xl_desc: "Unleash the power of Fomorian Cruisers on your enemies - ships the size of cruisers, that can mount spinal weapons! Trade survivability and common sense for the ultimate in compact firepower! §RBeware, however, their fearsome cost - in both alloys and energy!§!"
+ TECH_UNLOCK_DIAH_CRUISER_XL_CONSTRUCTION_TITLE: "§HUnlocks Ship Type:§! Fomorian Cruiser"
+
+ DIAH_CRUISER_XL_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$"
+ DIAH_CRUISER_XL_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$"
+
+ DIAH_CRUISER_XL_SHIP_THRUSTER_1: "$SHIP_THRUSTER_1$"
+ DIAH_CRUISER_XL_SHIP_THRUSTER_2: "$SHIP_THRUSTER_2$"
+ DIAH_CRUISER_XL_SHIP_THRUSTER_3: "$SHIP_THRUSTER_3$"
+ DIAH_CRUISER_XL_SHIP_THRUSTER_4: "$SHIP_THRUSTER_4$"
+ DIAH_CRUISER_XL_SHIP_THRUSTER_5: "$SHIP_THRUSTER_5$"
+
+# Modular Cruisers
+ DIAH_cruiser_mod: "Modular Cruiser"
+ DIAH_cruiser_mod_plural: "Modular Cruisers"
+
+ DIAH_CRUISER_MOD_BOW: "Modular Bow"
+ DIAH_CRUISER_MOD_BOW_ADV: "Adv. Modular Bow"
+ DIAH_CRUISER_MOD_STERN_NONE: "Command Stern"
+
+ tech_DIAH_cruiser_mod: "Modular Cruisers"
+ tech_DIAH_cruiser_mod_desc: "Forgoing the traditional level of firepower associated with a cruiser, Modular Cruisers instead implement a unique modular bow section, capable of swapping its contents - and thus, its capabilities - according to mission requirements."
+ TECH_UNLOCK_DIAH_CRUISER_MOD_CONSTRUCTION_TITLE: "§HUnlocks Ship Type:§! Modular Cruiser"
+
+ DIAH_CRUISER_MOD_FISSION_REACTOR: "$FISSION_REACTOR$"
+ DIAH_CRUISER_MOD_FUSION_REACTOR: "$FUSION_REACTOR$"
+ DIAH_CRUISER_MOD_COLD_FUSION_REACTOR: "$COLD_FUSION_REACTOR$"
+ DIAH_CRUISER_MOD_ANTIMATTER_REACTOR: "$ANTIMATTER_REACTOR$"
+ DIAH_CRUISER_MOD_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$"
+ DIAH_CRUISER_MOD_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$"
+
+ DIAH_CRUISER_MOD_SHIP_THRUSTER_1: "$SHIP_THRUSTER_1$"
+ DIAH_CRUISER_MOD_SHIP_THRUSTER_2: "$SHIP_THRUSTER_2$"
+ DIAH_CRUISER_MOD_SHIP_THRUSTER_3: "$SHIP_THRUSTER_3$"
+ DIAH_CRUISER_MOD_SHIP_THRUSTER_4: "$SHIP_THRUSTER_4$"
+ DIAH_CRUISER_MOD_SHIP_THRUSTER_5: "$SHIP_THRUSTER_5$"
+
+ DIAH_cruiser_modules: "Module Bay"
+ DIAH_cruiser_modules_desc: "These components utilise the modular bow section to enhance a Modular Cruiser's capabilities in various ways."
+
+ DIAH_EMPTY_MODULE: "Empty Module Bay"
+ DIAH_EMPTY_MODULE_DESC: "The empty bay of a Modular Cruiser, ready to receive a module."
+ 
+ tech_DIAH_cruiser_mod_helldivers: "Rapid Tactical Asset Deployment"
+ tech_DIAH_cruiser_mod_helldivers_desc: "Research has determined that the effectiveness of our orbital bombardment can be increased by use of ground-based target acquisition assets. In other words, let's put a bunch of people in tin cans, shoot them at a planet we're bombing, and hope for the best. For our glorious nation!"
+ DIAH_RTAD_MODULE: "Rapid Tactical Asset Deployment Module"
+ DIAH_RTAD_MODULE_DESC: "A module dedicated to maintaining a small division of ground-side target acquisition assistants - spotters, essentially - to enhance the precision of orbital bombardment. "
+ DIAH_MONITOR_MODULE: "Territory Patrol Module"
+ DIAH_MONITOR_MODULE_DESC: "This module contains a vast array of comm uplinks and sensor modules to increase weapon range and accuracy, by receiving data from the incredible variety of sensor platforms deployed in inhabited systems. Obviously requires friendly relations with the owner to access."
+ DIAH_MISSILE_MODULE: "Rapid Missile Fabrication Module"
+ DIAH_MISSILE_MODULE_DESC: "This module is a series of specialised nanofabricators, dedicated to the rapid production of missiles."
+ DIAH_SNEAKY_MODULE: "Enhanced Stealth Module"
+ DIAH_SNEAKY_MODULE_DESC: "A comprehensive suite of stealth technology: sensor blinding, RADAR and LIDAR refraction fields, and ultra-sensitive passive sensors - as well as common sense manuals to be distributed to crew members. No letters to home, and no streaming Spaceflix!"
+ DIAH_PDC_MODULE: "Point Defence Coordination Module"
+ DIAH_PDC_MODULE_DESC: "A module containing sensor packages dedicated to tracking vast swarms of small objects. Great for tracking missiles, strike craft, and space junk!"
+ DIAH_TENDER_MODULE: "Fleet Tender Module"
+ DIAH_TENDER_MODULE_DESC: "This module is filled with nanofabricators dedicated to printing spare components and hull plating, as well as drones to distribute them to fleet members in need."
+
+###############
+# Battleships #
+###############
+# Tech tooltips
+ TECH_BATTLESHIP_HULL_1_TITLE: "§HUnlocks Battleship Sections:§! Archer Core, Picket Stern"
+ TECH_BATTLESHIP_HULL_2_TITLE: "§HUnlocks Battleship Sections:§! Supercarrier Bow, Supercarrier Core, Resolute Core, Supercarrier Stern, Command Stern"
+
+# Battleship Bows
+ DIAH_BATTLESHIP_BOW_H2: "Supercarrier Bow"
+
+# Battleship Cores
+ DIAH_BATTLESHIP_CORE_H3: "Supercarrier Core"
+ DIAH_BATTLESHIP_CORE_G5S2P2: "Archer Core"
+ DIAH_BATTLESHIP_CORE_S2P2: "Resolute Core"
+
+# Battleship Sterns
+ DIAH_BATTLESHIP_STERN_H1: "Supercarrier Stern"
+ DIAH_BATTLESHIP_STERN_S2P2: "Picket Stern"
+ DIAH_BATTLESHIP_STERN_NONE: "Command Stern"
+
+##########
+# Titans #
+##########
+# Tech tooltips
+ TECH_TITAN_HULL_1_TITLE: "§HUnlocks Titan Sections:§! Fomorian Bow, Punisher Bow, Fomorian Core, Hunter-Killer Core, Hailstorm Core"
+ TECH_TITAN_HULL_2_TITLE: "§HUnlocks Titan Sections:§! Supercarrier Bow, Supercarrier Core, Stalwart Core, Supercarrier Stern, Command Stern"
+
+# Titan Bows
+ DIAH_TITAN_BOW_X2: "Fomorian Bow"
+ DIAH_TITAN_BOW_L4: "Punisher Bow"
+ DIAH_TITAN_BOW_H5: "Supercarrier Bow"
+ DIAH_TITAN_BOW_G4S4P4: "Archer Bow"
+
+# Titan Cores
+ DIAH_TITAN_MID_X2: "Fomorian Core"
+ DIAH_TITAN_MID_H4S2P2: "Supercarrier Core"
+ DIAH_TITAN_MID_L2M2S4: "Hunter-Killer Core"
+ DIAH_TITAN_BOW_G4S4P4: "Archer Core"
+ DIAH_TITAN_MID_S16: "Hailstorm Core"
+ DIAH_TITAN_MID_S4P4: "Stalwart Core"
+ DIAH_TITAN_MID_NONE: "Unyielding Core"
+
+# Titan Sterns
+ DIAH_TITAN_STERN_H2: "Supercarrier Stern"
+ DIAH_TITAN_STERN_NONE: "Command Stern"

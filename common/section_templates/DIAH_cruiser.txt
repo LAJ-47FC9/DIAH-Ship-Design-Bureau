@@ -1,0 +1,881 @@
+@section_cost = 40
+@adv_section_cost = 60
+
+#############
+# Bow Slots #
+#############
+
+# Vanilla - L1
+#ship_section_template = {
+#	key = "CRUISER_BOW_L1"
+#	ship_size = cruiser
+#	fits_on_slot = bow
+#	should_draw_components = yes
+#	entity = "cruiser_bow_L1_entity"
+#	icon = "GFX_ship_part_core_bow"
+#	ai_tags = { artillery artillery_stealth }
+#
+#	component_slot = {
+#		name = "LARGE_GUN_01"
+#		template = "large_turret"
+#		locatorname = "large_gun_01"
+#	}
+#
+#	medium_utility_slots = 4
+#
+#	resources = {
+#		category = ship_sections
+#		cost = {
+#			alloys = @section_cost
+#		}
+#	}
+#}
+
+# Vanilla - G1 S2
+#ship_section_template = {
+#	key = "CRUISER_BOW_M1S2"
+#	ship_size = cruiser
+#	fits_on_slot = bow
+#	should_draw_components = yes
+#	entity = "cruiser_bow_M1S2_entity"
+#	icon = "GFX_ship_part_core_bow"
+#	ai_tags = { explosive explosive_stealth energy_torpedoes energy_torpedoes_stealth }
+#
+#	prerequisites = { tech_torpedoes_1 }
+#
+#	ai_weight = {
+#		modifier = {
+#			factor = 10.0
+#			is_preferred_weapons = weapon_type_explosive
+#		}
+#		modifier = {
+#			factor = 0.1
+#			NOT = { is_preferred_weapons = weapon_type_explosive }
+#		}
+#	}
+#
+#	component_slot = {
+#		name = "TORPEDO_01"
+#		template = "medium_missile_turret"
+#		locatorname = "medium_gun_01"
+#	}
+#
+#	component_slot = {
+#		name = "SMALL_GUN_01"
+#		template = "small_turret"
+#		locatorname = "small_gun_01"
+#	}
+#
+#	component_slot = {
+#		name = "SMALL_GUN_02"
+#		template = "small_turret"
+#		locatorname = "small_gun_02"
+#	}
+#
+#	medium_utility_slots = 4
+#
+#	resources = {
+#		category = ship_sections
+#		cost = {
+#			alloys = @section_cost
+#		}
+#	}
+#}
+
+# Vanilla - M2
+#ship_section_template = {
+#	key = "CRUISER_BOW_M2"
+#	ship_size = cruiser
+#	fits_on_slot = bow
+#	should_draw_components = yes
+#	entity = "cruiser_bow_M2_entity"
+#	icon = "GFX_ship_part_core_bow"
+#	ai_tags = { gunship carrier }
+#
+#	component_slot = {
+#		name = "MEDIUM_GUN_01"
+#		template = "medium_turret"
+#		locatorname = "medium_gun_01"
+#	}
+#
+#	component_slot = {
+#		name = "MEDIUM_GUN_02"
+#		template = "medium_turret"
+#		locatorname = "medium_gun_02"
+#	}
+#
+#	medium_utility_slots = 4
+#
+#	resources = {
+#		category = ship_sections
+#		cost = {
+#			alloys = @section_cost
+#		}
+#	}
+#}
+
+# Improved Hulls
+# Macross Bow - G2
+ship_section_template = {
+	key = "DIAH_CRUISER_BOW_G2"
+	ship_size = cruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "cruiser_bow_M2_entity"
+	icon = "GFX_ship_part_core_bow"
+	ai_tags = { explosive explosive_stealth energy_torpedoes energy_torpedoes_stealth }
+
+	prerequisites = { tech_cruiser_hull_1 }
+
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	medium_utility_slots = 4
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+# Interceptor Bow - S2 P2
+ship_section_template = {
+	key = "DIAH_CRUISER_BOW_S2P2"
+	ship_size = cruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "cruiser_bow_M1S2_entity"
+	icon = "GFX_ship_part_core_bow"
+	ai_tags = { brawler }
+
+	prerequisites = { tech_cruiser_hull_1 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "invisible_small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "invisible_point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	medium_utility_slots = 4
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+# Advanced Hulls
+# Adv. Broadside Bow - M2, uprated util slots
+ship_section_template = {
+	key = "DIAH_CRUISER_BOW_M2_ADV"
+	ship_size = cruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "cruiser_bow_M2_entity"
+	icon = "GFX_ship_part_core_bow"
+	ai_tags = { gunship }
+
+	prerequisites = { tech_cruiser_hull_2 }
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	large_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @adv_section_cost
+		}
+	}
+}
+
+# Adv. Missile Bow - G1 S2
+ship_section_template = {
+	key = "DIAH_CRUISER_BOW_G1S2_ADV"
+	ship_size = cruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "cruiser_bow_M1S2_entity"
+	icon = "GFX_ship_part_core_bow"
+	ai_tags = { explosive explosive_stealth energy_torpedoes energy_torpedoes_stealth }
+
+	prerequisites = { tech_cruiser_hull_2 }
+
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+
+	large_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @adv_section_cost
+		}
+	}
+}
+
+# Adv. Interceptor Bow - S2 P2, uprated util slots
+ship_section_template = {
+	key = "DIAH_CRUISER_BOW_S2P2_ADV"
+	ship_size = cruiser
+	fits_on_slot = bow
+	should_draw_components = yes
+	entity = "cruiser_bow_M1S2_entity"
+	icon = "GFX_ship_part_core_bow"
+	ai_tags = { brawler }
+
+	prerequisites = { tech_cruiser_hull_2 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "invisible_small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	large_utility_slots = 2
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @adv_section_cost
+		}
+	}
+}
+
+##############
+# Core Slots #
+##############
+
+# Hangar Core (Vanilla) - H1 P2
+#ship_section_template = {
+#	key = "CRUISER_MID_S2HB"
+#	ship_size = cruiser
+#	fits_on_slot = mid
+#	should_draw_components = yes
+#	entity = "cruiser_mid_S2HB_entity"
+#	icon = "GFX_ship_part_core_mid"
+#	ai_tags = { carrier }
+#
+#	ai_weight = {
+#		modifier = {
+#			factor = 10.0
+#			is_preferred_weapons = weapon_type_strike_craft
+#		}
+#		modifier = {
+#			factor = 0.1
+#			NOT = { is_preferred_weapons = weapon_type_strike_craft }
+#		}
+#	}
+#
+#	component_slot = {
+#		name = "PD_01"
+#		template = "point_defence_turret"
+#		locatorname = "small_gun_01"
+#	}
+#	component_slot = {
+#		name = "PD_02"
+#		template = "point_defence_turret"
+#		locatorname = "small_gun_02"
+#	}
+#	component_slot = {
+#		name = "STRIKE_CRAFT_01"
+#		template = "large_strike_craft"
+#		rotation = 90
+#		locatorname = "strike_craft_locator_01"
+#	}
+#
+#	medium_utility_slots = 4
+#
+#	resources = {
+#		category = ship_sections
+#		cost = {
+#			alloys = @section_cost
+#		}
+#	}
+#}
+
+# Artillery Core (Vanilla) - L1 M1
+#ship_section_template = {
+#	key = "CRUISER_MID_L1M1"
+#	ship_size = cruiser
+#	fits_on_slot = mid
+#	should_draw_components = yes
+#	entity = "cruiser_mid_L1M1_entity"
+#	icon = "GFX_ship_part_core_mid"
+#	ai_tags = { artillery artillery_stealth }
+#
+#	component_slot = {
+#		name = "LARGE_GUN_01"
+#		template = "large_turret"
+#		locatorname = "large_gun_01"
+#	}
+#	component_slot = {
+#		name = "MEDIUM_GUN_01"
+#		template = "medium_turret"
+#		locatorname = "medium_gun_01"
+#	}
+#
+#	medium_utility_slots = 4
+#
+#	resources = {
+#		category = ship_sections
+#		cost = {
+#			alloys = @section_cost
+#		}
+#	}
+#}
+
+# Broadside Core (Vanilla) - M3
+#ship_section_template = {
+#	key = "CRUISER_MID_M3"
+#	ship_size = cruiser
+#	fits_on_slot = mid
+#	should_draw_components = yes
+#	entity = "cruiser_mid_M3_entity"
+#	icon = "GFX_ship_part_core_mid"
+#	ai_tags = { gunship }
+#
+#	component_slot = {
+#		name = "MEDIUM_GUN_01"
+#		template = "medium_turret"
+#		locatorname = "medium_gun_01"
+#	}
+#
+#	component_slot = {
+#		name = "MEDIUM_GUN_02"
+#		template = "medium_turret"
+#		locatorname = "medium_gun_02"
+#	}
+#
+#	component_slot = {
+#		name = "MEDIUM_GUN_03"
+#		template = "medium_turret"
+#		locatorname = "medium_gun_03"
+#	}
+#
+#	medium_utility_slots = 4
+#
+#	resources = {
+#		category = ship_sections
+#		cost = {
+#			alloys = @section_cost
+#		}
+#	}
+#}
+
+# Missile Core (Vanilla) - M2 S2
+#ship_section_template = {
+#	key = "CRUISER_MID_M2S2"
+#	ship_size = cruiser
+#	fits_on_slot = mid
+#	should_draw_components = yes
+#	entity = "cruiser_mid_M2S2_entity"
+#	icon = "GFX_ship_part_core_mid"
+#	ai_tags = { explosive explosive_stealth energy_torpedoes energy_torpedoes_stealth }
+#
+#	prerequisites = { tech_torpedoes_1 }
+#
+#	ai_weight = {
+#		modifier = {
+#			factor = 10.0
+#			is_preferred_weapons = weapon_type_explosive
+#		}
+#		modifier = {
+#			factor = 0.1
+#			NOT = { is_preferred_weapons = weapon_type_explosive }
+#		}
+#	}
+#
+#	component_slot = {
+#		name = "TORPEDO_01"
+#		template = "medium_missile_turret"
+#		locatorname = "medium_gun_01"
+#	}
+#
+#	component_slot = {
+#		name = "TORPEDO_02"
+#		template = "medium_missile_turret"
+#		locatorname = "medium_gun_02"
+#	}
+#
+#	component_slot = {
+#		name = "SMALL_GUN_01"
+#		template = "small_turret"
+#		locatorname = "small_gun_01"
+#	}
+#
+#	component_slot = {
+#		name = "SMALL_GUN_02"
+#		template = "small_turret"
+#		locatorname = "small_gun_02"
+#	}
+#
+#	medium_utility_slots = 4
+#
+#	resources = {
+#		category = ship_sections
+#		cost = {
+#			alloys = @section_cost
+#		}
+#	}
+#}
+
+# Improved Hulls
+# Macross Core - G3
+ship_section_template = {
+	key = "DIAH_CRUISER_CORE_G3"
+	ship_size = cruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "cruiser_mid_M3_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { explosive explosive_stealth energy_torpedoes energy_torpedoes_stealth }
+
+	prerequisites = { tech_cruiser_hull_1 }
+
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_03"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_03"
+	}
+
+	medium_utility_slots = 4
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+# Interceptor Core - S4 P2
+ship_section_template = {
+	key = "DIAH_CRUISER_CORE_S4P2"
+	ship_size = cruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "cruiser_mid_M2S2_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { gunship }
+
+	prerequisites = { tech_cruiser_hull_1 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "invisible_small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "invisible_small_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	medium_utility_slots = 4
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+# Advanced Hulls
+# Adv. Broadside Core - M3, uprated util slots
+ship_section_template = {
+	key = "DIAH_CRUISER_CORE_M3_ADV"
+	ship_size = cruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "cruiser_mid_M3_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { gunship }
+
+	prerequisites = { tech_cruiser_hull_2 }
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "medium_gun_03"
+	}
+
+	large_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @adv_section_cost
+		}
+	}
+}
+
+# Adv. Missile Core - G2 S2, uprated util slots
+ship_section_template = {
+	key = "DIAH_CRUISER_CORE_G2S2_ADV"
+	ship_size = cruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "cruiser_mid_M2S2_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { explosive explosive_stealth energy_torpedoes energy_torpedoes_stealth }
+
+	prerequisites = { tech_cruiser_hull_2 }
+
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+
+	large_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @adv_section_cost
+		}
+	}
+}
+
+# Adv. Interceptor Core - S4 P2, uprated util slots
+ship_section_template = {
+	key = "DIAH_CRUISER_CORE_S4P2_ADV"
+	ship_size = cruiser
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "cruiser_mid_M2S2_entity"
+	icon = "GFX_ship_part_core_mid"
+	ai_tags = { gunship }
+
+	prerequisites = { tech_cruiser_hull_2 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "invisible_small_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "invisible_small_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	large_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @adv_section_cost
+		}
+	}
+}
+
+###############
+# Stern Slots #
+###############
+
+# Broadside Stern (Vanilla) - M1
+#ship_section_template = {
+#	key = "CRUISER_STERN_M1"
+#	ship_size = cruiser
+#	fits_on_slot = stern
+#	should_draw_components = yes
+#	entity = "cruiser_stern_M1_entity"
+#	icon = "GFX_ship_part_core_stern"
+#	ai_tags = { artillery artillery_stealth carrier	}
+#
+#	component_slot = {
+#		name = "MEDIUM_GUN_01"
+#		template = "medium_turret"
+#		locatorname = "medium_gun_01"
+#	}
+#
+#	aux_utility_slots = 2
+#
+#	resources = {
+#		category = ship_sections
+#		cost = {
+#			alloys = @section_cost
+#		}
+#	}
+#}
+
+# Gunship Stern (Vanilla) - S2
+#ship_section_template = {
+#	key = "CRUISER_STERN_S2"
+#	ship_size = cruiser
+#	fits_on_slot = stern
+#	should_draw_components = yes
+#	entity = "cruiser_stern_S2_entity"
+#	icon = "GFX_ship_part_core_stern"
+#	ai_tags = {	gunship explosive explosive_stealth energy_torpedoes energy_torpedoes_stealth }
+#
+#	component_slot = {
+#		name = "SMALL_GUN_01"
+#		template = "small_turret"
+#		locatorname = "small_gun_01"
+#	}
+#
+#	component_slot = {
+#		name = "SMALL_GUN_02"
+#		template = "small_turret"
+#		locatorname = "small_gun_02"
+#	}
+#
+#	aux_utility_slots = 3
+#
+#	resources = {
+#		category = ship_sections
+#		cost = {
+#			alloys = @section_cost
+#		}
+#	}
+#}
+
+# Improved Hulls
+# Picket Stern - P2
+ship_section_template = {
+	key = "DIAH_CRUISER_STERN_P2"
+	ship_size = cruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "cruiser_stern_S2_entity"
+	icon = "GFX_ship_part_core_stern"
+	ai_tags = {	gunship explosive explosive_stealth energy_torpedoes energy_torpedoes_stealth }
+
+	prerequisites = { tech_cruiser_hull_1 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	aux_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+# Advanced Hulls
+# Command Stern - No weapons, extra Aux
+ship_section_template = {
+	key = "DIAH_CRUISER_STERN_NONE"
+	ship_size = cruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "cruiser_stern_S2_entity"
+	icon = "GFX_ship_part_core_stern"
+	ai_tags = {	gunship explosive explosive_stealth energy_torpedoes energy_torpedoes_stealth }
+
+	prerequisites = { tech_cruiser_hull_2 }
+
+	aux_utility_slots = 4
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @adv_section_cost
+		}
+	}
+}

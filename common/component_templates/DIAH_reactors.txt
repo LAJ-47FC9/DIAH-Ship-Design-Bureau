@@ -1,0 +1,299 @@
+#############################
+# Fomorian Cruiser Reactors #
+#############################
+@DIAH_cruiser_xl_power_5 = 800
+@DIAH_cruiser_xl_cost_5 = 112
+
+@DIAH_cruiser_xl_power_6 = 1030
+@DIAH_cruiser_xl_cost_6 = 148
+
+@ESC_REACTOR_t6_power_DIAH_cruiser_xl = 1100
+@ESC_REACTOR_t6_cost_DIAH_cruiser_xl = 150
+@ESC_REACTOR_t6_upkeep_energy_DIAH_cruiser_xl = 1.50
+@ESC_REACTOR_t6_upkeep_alloys_DIAH_cruiser_xl = 0.15
+
+@ESC_REACTOR_t7_power_DIAH_cruiser_xl = 1600
+@ESC_REACTOR_t7_cost_DIAH_cruiser_xl = 190
+@ESC_REACTOR_t7_upkeep_energy_DIAH_cruiser_xl = 1.90
+@ESC_REACTOR_t7_upkeep_alloys_DIAH_cruiser_xl = 0.19
+
+@ESC_REACTOR_t8_power_DIAH_cruiser_xl = 2200
+@ESC_REACTOR_t8_cost_DIAH_cruiser_xl = 220
+@ESC_REACTOR_t8_upkeep_energy_DIAH_cruiser_xl = 2.20
+@ESC_REACTOR_t8_upkeep_alloys_DIAH_cruiser_xl = 0.220
+
+# Zero-Point Reactor (first one available)
+utility_component_template = {
+	key = "DIAH_CRUISER_XL_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = @DIAH_cruiser_xl_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @DIAH_cruiser_xl_cost_5
+		}
+		upkeep = {
+			energy = 1.14
+			alloys = 0.114
+		}
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { DIAH_cruiser_xl }
+	upgrades_to = "DIAH_CRUISER_XL_DARK_MATTER_REACTOR"
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+# Dark Matter Reactor
+utility_component_template = {
+	key = "DIAH_CRUISER_XL_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = @DIAH_cruiser_xl_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @DIAH_cruiser_xl_cost_6
+			sr_dark_matter = 4
+		}
+		upkeep = {
+			energy = 1.48
+			alloys = 0.148
+		}
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { DIAH_cruiser_xl }
+
+	ai_weight = {
+		weight = 6
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = sr_dark_matter }
+		}
+		modifier = {
+			factor = 0.0
+			is_ai = yes
+		}
+	}
+}
+
+############################
+# Modular Cruiser Reactors #
+############################
+@DIAH_cruiser_mod_power_1 = 280
+@DIAH_cruiser_mod_cost_1 = 40
+
+@DIAH_cruiser_mod_power_2 = 360
+@DIAH_cruiser_mod_cost_2 = 52
+
+@DIAH_cruiser_mod_power_3 = 480
+@DIAH_cruiser_mod_cost_3 = 68
+
+@DIAH_cruiser_mod_power_4 = 620
+@DIAH_cruiser_mod_cost_4 = 88
+
+@DIAH_cruiser_mod_power_5 = 800
+@DIAH_cruiser_mod_cost_5 = 112
+
+@DIAH_cruiser_mod_power_6 = 1030
+@DIAH_cruiser_mod_cost_6 = 148
+
+@ESC_REACTOR_t6_power_DIAH_cruiser_mod = 1100
+@ESC_REACTOR_t6_cost_DIAH_cruiser_mod = 150
+@ESC_REACTOR_t6_upkeep_energy_DIAH_cruiser_mod = 1.50
+@ESC_REACTOR_t6_upkeep_alloys_DIAH_cruiser_mod = 0.15
+
+@ESC_REACTOR_t7_power_DIAH_cruiser_mod = 1600
+@ESC_REACTOR_t7_cost_DIAH_cruiser_mod = 190
+@ESC_REACTOR_t7_upkeep_energy_DIAH_cruiser_mod = 1.90
+@ESC_REACTOR_t7_upkeep_alloys_DIAH_cruiser_mod = 0.19
+
+@ESC_REACTOR_t8_power_DIAH_cruiser_mod = 2200
+@ESC_REACTOR_t8_cost_DIAH_cruiser_mod = 220
+@ESC_REACTOR_t8_upkeep_energy_DIAH_cruiser_mod = 2.20
+@ESC_REACTOR_t8_upkeep_alloys_DIAH_cruiser_mod = 0.220
+
+# Fission Reactor
+utility_component_template = {
+	key = "DIAH_CRUISER_MOD_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_1"
+	icon_frame = 1
+	power = @DIAH_cruiser_mod_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @DIAH_cruiser_mod_cost_1
+		}
+		upkeep = {
+			energy = 0.40
+			alloys = 0.04
+		}
+	}
+
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { DIAH_cruiser_mod }
+	upgrades_to = "DIAH_CRUISER_MOD_FUSION_REACTOR"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+# Fusion Reactor
+utility_component_template = {
+	key = "DIAH_CRUISER_MOD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_2"
+	icon_frame = 1
+	power = @DIAH_cruiser_mod_power_2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @DIAH_cruiser_mod_cost_2
+		}
+		upkeep = {
+			energy = 0.52
+			alloys = 0.052
+		}
+	}
+
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { DIAH_cruiser_mod }
+	upgrades_to = "DIAH_CRUISER_MOD_COLD_FUSION_REACTOR"
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+# Cold Fusion Reactor
+utility_component_template = {
+	key = "DIAH_CRUISER_MOD_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_3"
+	icon_frame = 1
+	power = @DIAH_cruiser_mod_power_3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @DIAH_cruiser_mod_cost_3
+		}
+		upkeep = {
+			energy = 0.68
+			alloys = 0.068
+		}
+	}
+
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { DIAH_cruiser_mod }
+	upgrades_to = "DIAH_CRUISER_MOD_ANTIMATTER_REACTOR"
+
+	ai_weight = {
+		weight = 3
+	}
+}
+
+# Antimatter Reactor
+utility_component_template = {
+	key = "DIAH_CRUISER_MOD_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_4"
+	icon_frame = 1
+	power = @DIAH_cruiser_mod_power_4
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @DIAH_cruiser_mod_cost_4
+		}
+		upkeep = {
+			energy = 0.88
+			alloys = 0.088
+		}
+	}
+
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { DIAH_cruiser_mod }
+	upgrades_to = "DIAH_CRUISER_MOD_ZERO_POINT_REACTOR"
+
+	ai_weight = {
+		weight = 4
+	}
+}
+
+# Zero-Point Reactor
+utility_component_template = {
+	key = "DIAH_CRUISER_MOD_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = @DIAH_cruiser_mod_power_5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @DIAH_cruiser_mod_cost_5
+		}
+		upkeep = {
+			energy = 1.14
+			alloys = 0.114
+		}
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { DIAH_cruiser_mod }
+	upgrades_to = "DIAH_CRUISER_MOD_DARK_MATTER_REACTOR"
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+# Dark Matter Reactor
+utility_component_template = {
+	key = "DIAH_CRUISER_MOD_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = @DIAH_cruiser_mod_power_6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @DIAH_cruiser_mod_cost_6
+			sr_dark_matter = 4
+		}
+		upkeep = {
+			energy = 1.48
+			alloys = 0.148
+		}
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { DIAH_cruiser_mod }
+
+	ai_weight = {
+		weight = 6
+		modifier = {
+			factor = 0.0
+			no_resource_for_component = { RESOURCE = sr_dark_matter }
+		}
+		modifier = {
+			factor = 0.0
+			is_ai = yes
+		}
+	}
+}

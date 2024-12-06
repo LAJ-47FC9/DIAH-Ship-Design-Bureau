@@ -1,0 +1,28 @@
+ap_DIAH_overtuned_armoury = {
+	potential = {
+		always = no
+		NOT = {
+			has_ascension_perk = ap_DIAH_overtuned_armoury
+		}
+		is_ai = no
+	}
+	possible = {
+		always = yes
+	}
+
+	on_enabled = {
+		custom_tooltip = "DIAH_armoury_overtuned"
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 2
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 3
+			has_ethic = ethic_fanatic_materialist
+		}
+	}
+}

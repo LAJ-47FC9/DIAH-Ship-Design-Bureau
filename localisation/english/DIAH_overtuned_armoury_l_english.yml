@@ -1,0 +1,10 @@
+﻿l_english:
+
+# Overtuned Armoury perk
+ ap_DIAH_overtuned_armoury: "Fund the Futuristics Division"
+ ap_DIAH_overtuned_armoury_desc: "For a good while, you've been getting some odd proposals from a newly formed R&D group in the nation: the Futuristics Division. Their claim to fame is that they do not follow, quote-unquote, \"conventional thinking\" - ignoring established doctrine to put together truly new technologies. While most of their output until now has been unworkable rubbish, this latest idea might actually have some merit…"
+ DIAH_armoury_overtuned: "Allows access to §Mspecial technologies§! that grant §Spowerful§! but §Pcostly§! ship components.\nGuarantees the following research options:\n£physics_research£§Y$tech_DIAH_overtuned_GWD$§"
+
+# Techs
+ tech_DIAH_overtuned_GWD: "Shield Deflection Refactoring"
+ tech_DIAH_overtuned_GWD: "The GWD is the first project of the Futuristics Division to be approved by the government. Rather than traditional shield systems, which are focused on stopping projectiles entirely, the GWD uses §Sgravitational waves§! to §Sdeflect§! incoming projectiles and diffuse beam weapons, in the hope of causing them to miss entirely, or at least blunt their damage upon impact."

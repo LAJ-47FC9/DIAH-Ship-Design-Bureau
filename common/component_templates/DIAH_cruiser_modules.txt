@@ -14,6 +14,20 @@ utility_component_template = {
 }
 
 # Missile Fabrication Module - missile buff
+utility_component_template = {
+	key = "DIAH_MISSILE_MODULE"
+	size = "small"
+	icon = ""
+	icon_frame = 1
+	power = 0
+
+	ship_modifier = {
+		explosive_weapon_fire_rate_mult = 0.5
+		explosive_weapon_damage_mult = 0.25
+	}
+
+	component_set = "DIAH_cruiser_modules"
+}
 
 # Rapid Tactical Asset Delivery Module - bombardment buff
 utility_component_template = {
@@ -24,8 +38,8 @@ utility_component_template = {
 	power = 0
 
 	ship_modifier = {
-		ship_orbital_bombardment_mult = 400
-		ship_orbital_bombardment_pop_damage_mult = -25
+		ship_orbital_bombardment_mult = 4
+		ship_orbital_bombardment_pop_damage_mult = -0.25
 	}
 
 	prerequisites = { tech_DIAH_cruiser_mod_helldivers }
@@ -33,6 +47,21 @@ utility_component_template = {
 }
 
 # Territory Patrol Module - buff in friendly space
+utility_component_template = {
+	key = "DIAH_MONITOR_MODULE"
+	size = "small"
+	icon = ""
+	icon_frame = 1
+	power = 0
+
+	ship_modifier = {
+		ship_friendly_territory_accuracy_mult = 0.1
+		ship_friendly_territory_tracking_mult = 0.1
+	}
+
+	prerequisites = {  }
+	component_set = "DIAH_cruiser_modules"
+}
 
 # Fleet Tender Module - repair ships
 
@@ -67,11 +96,11 @@ utility_component_template = {
 	size = "small"
 	icon = "GFX_ship_part_aura_targeting_grid"
 	icon_frame = 1
-	power = 1
+	power = 0
 
 	ship_modifier = {
 		weapon_role_point_defense_speed_mult = 0.5
-
+		weapon_role_point_defense_weapon_damage_mult = 0.25
 	}
 
 	ai_tags = {

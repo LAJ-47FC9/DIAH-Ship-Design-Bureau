@@ -75,15 +75,6 @@
  tech_DIAH_cruiser_xl_desc: "Unleash the power of Fomorian Cruisers on your enemies - ships the size of cruisers, that can mount spinal weapons! Trade survivability and common sense for the ultimate in compact firepower! §RBeware, however, their fearsome cost - in both alloys and energy!§!"
  TECH_UNLOCK_DIAH_CRUISER_XL_CONSTRUCTION_TITLE: "§HUnlocks Ship Type:§! Fomorian Cruiser"
 
- DIAH_CRUISER_XL_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$"
- DIAH_CRUISER_XL_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$"
-
- DIAH_CRUISER_XL_SHIP_THRUSTER_1: "$SHIP_THRUSTER_1$"
- DIAH_CRUISER_XL_SHIP_THRUSTER_2: "$SHIP_THRUSTER_2$"
- DIAH_CRUISER_XL_SHIP_THRUSTER_3: "$SHIP_THRUSTER_3$"
- DIAH_CRUISER_XL_SHIP_THRUSTER_4: "$SHIP_THRUSTER_4$"
- DIAH_CRUISER_XL_SHIP_THRUSTER_5: "$SHIP_THRUSTER_5$"
-
 # Modular Cruisers
  DIAH_cruiser_mod: "Modular Cruiser"
  DIAH_cruiser_mod_plural: "Modular Cruisers"
@@ -95,40 +86,6 @@
  tech_DIAH_cruiser_mod: "Modular Cruisers"
  tech_DIAH_cruiser_mod_desc: "Forgoing the traditional level of firepower associated with a cruiser, Modular Cruisers instead implement a unique modular bow section, capable of swapping its contents - and thus, its capabilities - according to mission requirements."
  TECH_UNLOCK_DIAH_CRUISER_MOD_CONSTRUCTION_TITLE: "§HUnlocks Ship Type:§! Modular Cruiser"
-
- DIAH_CRUISER_MOD_FISSION_REACTOR: "$FISSION_REACTOR$"
- DIAH_CRUISER_MOD_FUSION_REACTOR: "$FUSION_REACTOR$"
- DIAH_CRUISER_MOD_COLD_FUSION_REACTOR: "$COLD_FUSION_REACTOR$"
- DIAH_CRUISER_MOD_ANTIMATTER_REACTOR: "$ANTIMATTER_REACTOR$"
- DIAH_CRUISER_MOD_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$"
- DIAH_CRUISER_MOD_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$"
-
- DIAH_CRUISER_MOD_SHIP_THRUSTER_1: "$SHIP_THRUSTER_1$"
- DIAH_CRUISER_MOD_SHIP_THRUSTER_2: "$SHIP_THRUSTER_2$"
- DIAH_CRUISER_MOD_SHIP_THRUSTER_3: "$SHIP_THRUSTER_3$"
- DIAH_CRUISER_MOD_SHIP_THRUSTER_4: "$SHIP_THRUSTER_4$"
- DIAH_CRUISER_MOD_SHIP_THRUSTER_5: "$SHIP_THRUSTER_5$"
-
- DIAH_cruiser_modules: "Module Bay"
- DIAH_cruiser_modules_desc: "These components utilise the modular bow section to enhance a Modular Cruiser's capabilities in various ways."
-
- DIAH_EMPTY_MODULE: "Empty Module Bay"
- DIAH_EMPTY_MODULE_DESC: "The empty bay of a Modular Cruiser, ready to receive a module."
- 
- tech_DIAH_cruiser_mod_helldivers: "Rapid Tactical Asset Deployment"
- tech_DIAH_cruiser_mod_helldivers_desc: "Research has determined that the effectiveness of our orbital bombardment can be increased by use of ground-based target acquisition assets. In other words, let's put a bunch of people in tin cans, shoot them at a planet we're bombing, and hope for the best. For our glorious nation!"
- DIAH_RTAD_MODULE: "Rapid Tactical Asset Deployment Module"
- DIAH_RTAD_MODULE_DESC: "A module dedicated to maintaining a small division of ground-side target acquisition assistants - spotters, essentially - to enhance the precision of orbital bombardment. "
- DIAH_MONITOR_MODULE: "Territory Patrol Module"
- DIAH_MONITOR_MODULE_DESC: "This module contains a vast array of comm uplinks and sensor modules to increase weapon range and accuracy, by receiving data from the incredible variety of sensor platforms deployed in inhabited systems. Obviously requires friendly relations with the owner to access."
- DIAH_MISSILE_MODULE: "Rapid Missile Fabrication Module"
- DIAH_MISSILE_MODULE_DESC: "This module is a series of specialised nanofabricators, dedicated to the rapid production of missiles."
- DIAH_SNEAKY_MODULE: "Enhanced Stealth Module"
- DIAH_SNEAKY_MODULE_DESC: "A comprehensive suite of stealth technology: sensor blinding, RADAR and LIDAR refraction fields, and ultra-sensitive passive sensors - as well as common sense manuals to be distributed to crew members. No letters to home, and no streaming Spaceflix!"
- DIAH_PDC_MODULE: "Point Defence Coordination Module"
- DIAH_PDC_MODULE_DESC: "A module containing sensor packages dedicated to tracking vast swarms of small objects. Great for tracking missiles, strike craft, and space junk!"
- DIAH_TENDER_MODULE: "Fleet Tender Module"
- DIAH_TENDER_MODULE_DESC: "This module is filled with nanofabricators dedicated to printing spare components and hull plating, as well as drones to distribute them to fleet members in need."
 
 ###############
 # Battleships #

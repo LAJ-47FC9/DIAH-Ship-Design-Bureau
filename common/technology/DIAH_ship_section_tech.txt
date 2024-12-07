@@ -89,6 +89,7 @@ tech_DIAH_cruiser_mod_helldivers = {
 	category = { military_theory }
 	tier = 3
 	weight = @tier3cost3
+	prerequisites = { tech_DIAH_cruiser_mod }
 	potential = {
 		always = no
 	}

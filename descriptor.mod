@@ -1,7 +1,7 @@
-version="3.13.2"
+version="3.14.1592"
 tags={
 	"Balance"
 	"Military"
 }
 name="DIAH Ship Sections Diversified"
-supported_version="v3.13.2"
+supported_version="v3.14.1592"

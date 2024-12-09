@@ -4,5 +4,5 @@ tags={
 	"Military"
 	"Technology"
 }
-name="DIAH Ship Sections Diversified"
+name="DIAH Ship Design Bureau"
 supported_version="v3.14.1592"

@@ -3,5 +3,62 @@ tech_DIAH_overtuned_GWD = {
 	area = physics
 	tier = 3
 	category = { field_manipulation }
+	is_rare = yes
 	weight = 0
+}
+
+# Alternative Propulsion Proposals
+tech_DIAH_overtuned_APP = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	category = { propulsion }
+	is_rare = yes
+	weight = @tier4cost3
+
+	potential = {
+		has_ascension_perk = ap_DIAH_overtuned_armoury
+	}
+}
+
+tech_DIAH_overtuned_sublight_microjump = {
+	cost = @tier4cost3
+	area = physics
+	tier = 4
+	category = { particles }
+	is_dangerous = yes
+	weight = @tier4cost3
+	prerequisites = { tech_DIAH_overtuned_APP }
+
+	potential = {
+		has_ascension_perk = ap_DIAH_overtuned_armoury
+	}
+}
+
+tech_DIAH_overtuned_sublight_masseffect = {
+	cost = @tier4cost3
+	area = physics
+	tier = 4
+	category = { field_manipulation }
+	weight = @tier4cost3
+	is_dangerous = yes
+	prerequisites = { tech_DIAH_overtuned_APP }
+
+	potential = {
+		has_ascension_perk = ap_DIAH_overtuned_armoury
+	}
+}
+
+tech_DIAH_overtuned_sublight_warp = {
+	cost = @tier4cost3
+	area = physics
+	tier = 4
+	category = { field_manipulation }
+	weight = @tier4cost3
+	is_dangerous = yes
+	prerequisites = { tech_DIAH_overtuned_APP }
+
+	potential = {
+		has_ascension_perk = ap_DIAH_overtuned_armoury
+	}
 }

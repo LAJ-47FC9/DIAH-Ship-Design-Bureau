@@ -21,6 +21,8 @@
  DIAH_PDC_MODULE_DESC: "A module containing sensor packages dedicated to tracking vast swarms of small objects. Great for tracking missiles, strike craft, and space junk!"
  DIAH_TENDER_MODULE: "Fleet Tender Module"
  DIAH_TENDER_MODULE_DESC: "This module is filled with nanofabricators dedicated to printing spare components and hull plating, as well as drones to distribute them to fleet members in need."
+ DIAH_HELLDIVER_MODULE: "Rapid Tactical Asset Deployment Module"
+ DIAH_HELLDIVER_MODULE_DESC: "Launch bays for specialised troopers, whose job is to mark targets on the ground for orbital bombardment."
 
 # Fomorian Cruiser core stuff
 #    Reactors

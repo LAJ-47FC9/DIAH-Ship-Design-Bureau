@@ -1,0 +1,4 @@
+spriteType = {
+	name = "GFX_DIAH_icon_Helldivers"
+	texturefile = "gfx/interface/icons/technologies/tech_DIAH_cruiser_mod_helldivers.dds"
+}

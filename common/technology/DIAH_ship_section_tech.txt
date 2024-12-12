@@ -56,9 +56,6 @@ tech_DIAH_cruiser_mod = {
 	is_rare = yes
 	prerequisites = { tech_cruiser_hull_1 tech_modular_engineering }
 	gateway = ship
-	potential = {
-		always = no
-	}
 
 	prereqfor_desc = {
 		ship = {

@@ -17,7 +17,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "DIAH_MISSILE_MODULE"
 	size = "small"
-	icon = ""
+	icon = "GFX_ship_part_swarmer_missile_1"
 	icon_frame = 1
 	power = 0
 
@@ -50,7 +50,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "DIAH_MONITOR_MODULE"
 	size = "small"
-	icon = ""
+	icon = "GFX_ship_part_aura_hyperlane"
 	icon_frame = 1
 	power = 0
 

@@ -226,7 +226,7 @@ utility_component_template = {
 
 # Default Computer
 utility_component_template = {
-	key = "COMBAT_COMPUTER_LINE_DEFAULT"
+	key = "DIAH_CRUISER_MOD_COMBAT_COMPUTER_LINE_DEFAULT"
 	size = small
 	icon = "GFX_ship_part_computer_default"
 	icon_frame = 1
@@ -271,7 +271,7 @@ utility_component_template = {
 	component_set = "combat_computers"
 	ship_behavior = "torpedo"
 	prerequisites = { "tech_combat_computers_1" "tech_torpedoes_1" }
-	upgrades_to = "DIAH_CRUISER_MOD_COMBAT_COMPUTER_SWARM_ADVANCED"
+	upgrades_to = "DIAH_CRUISER_MOD_COMBAT_COMPUTER_TORPEDO_ADVANCED"
 	ai_tags = { explosive explosive_stealth }
 	ai_tag_weight = 0
 

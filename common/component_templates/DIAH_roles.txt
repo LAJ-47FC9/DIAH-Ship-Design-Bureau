@@ -226,7 +226,7 @@ utility_component_template = {
 
 # Default Computer
 utility_component_template = {
-	key = "COMBAT_COMPUTER_LINE_DEFAULT"
+	key = "DIAH_CRUISER_MOD_COMBAT_COMPUTER_LINE_DEFAULT"
 	size = small
 	icon = "GFX_ship_part_computer_default"
 	icon_frame = 1

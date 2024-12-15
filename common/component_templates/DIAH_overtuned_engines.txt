@@ -1,0 +1,68 @@
+########
+# Warp #
+########
+# Super speedy
+
+# Corvette/Civ
+
+
+# Destroyer
+
+
+# Cruiser
+
+
+# Battleship
+
+
+# Destroyer
+
+
+# Jugg
+
+
+###############
+# Mass Effect #
+###############
+# Extra evasion
+
+# Corvette/Civ
+
+
+# Destroyer
+
+
+# Cruiser
+
+
+# Battleship
+
+
+# Destroyer
+
+
+# Jugg
+
+
+#############
+# Microjump #
+#############
+# Disengagement, jump bonuses
+
+# Corvette/Civ
+
+
+# Destroyer
+
+
+# Cruiser
+
+
+# Battleship
+
+
+# Destroyer
+
+
+# Jugg
+

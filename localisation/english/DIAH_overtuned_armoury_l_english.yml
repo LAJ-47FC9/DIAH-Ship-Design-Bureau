@@ -17,4 +17,9 @@
  tech_DIAH_overtuned_sublight_warp_desc: "As it turns out, Alcubierre was half-right. While faster-than-light space warping remains out of our reach, the Futuristics Division have provided us with the next-best thing: improved in-system flight! Use the power of altering spacetime to move across systems with speed unheard of. Refinements to the design have eliminated the possibility of the warp field catching interplanetary debris and firing it like a relativistic shotgun upon the warp bubble collapsing."
  tech_DIAH_overtuned_sublight_masseffect: "Mass Effect Fields"
  tech_DIAH_overtuned_sublight_masseffect_desc: "Inertial dampening technology makes use of fields that temporarily reduce an object's inertial mass, allowing them to more easily gain momentum. You'd think the propulsion capabilities of such a technology would be obvious. Frankly, you should be offended that it took this long to come up with."
+
+ tech_DIAH_overtuned_astral_hyperdrive: "Astral Hyperfields"
+ tech_DIAH_overtuned_astral_hyperdrive_desc: "This novel FTL engine uses astral threads to generate an ultra-stable hyperspace field, allowing for enhanced speed within hyperlanes and easier access to hyperspace in case of emergency. With further research, it may be possible to send entire starships through astral rifts, allowing for a new age of interdimensional exploration, expansion, and exploitation."
+ tech_DIAH_overtuned_astral_jumpdrive: "Astral Wormhole Generation"
+ tech_DIAH_overtuned_astral_jumpdrive_desc: "Similar to the Astral Hyperdrive, the Astral Wormhole Drive is a jump engine that uses astral threads to generate long-range subspace wormholes. With time, the Futuristics Division is sure that they will be able to use these engines to generate astral rifts from whole cloth (pun very much intended, according to them). The multiverse will be ours!"
  

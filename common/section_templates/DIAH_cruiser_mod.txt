@@ -410,7 +410,102 @@ ship_section_template = {
 ###############
 # Stern Slots #
 ###############
+###############
+# Stern Slots #
+###############
+
+# Broadside Stern (Vanilla) - M1
+ship_section_template = {
+	key = "CRUISER_STERN_M1"
+	ship_size = DIAH_cruiser_mod
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "cruiser_stern_M1_entity"
+	icon = "GFX_ship_part_core_stern"
+	ai_tags = { artillery artillery_stealth carrier	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	aux_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+# Gunship Stern (Vanilla) - S2
+ship_section_template = {
+	key = "CRUISER_STERN_S2"
+	ship_size = DIAH_cruiser_mod
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "cruiser_stern_S2_entity"
+	icon = "GFX_ship_part_core_stern"
+	ai_tags = {	gunship explosive explosive_stealth energy_torpedoes energy_torpedoes_stealth }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+
+	aux_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
 # Improved Hulls
+# Picket Stern - P2
+ship_section_template = {
+	key = "DIAH_CRUISER_STERN_P2"
+	ship_size = DIAH_cruiser_mod
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "cruiser_stern_S2_entity"
+	icon = "GFX_ship_part_core_stern"
+	ai_tags = {	gunship explosive explosive_stealth energy_torpedoes energy_torpedoes_stealth }
+
+	prerequisites = { tech_cruiser_hull_1 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+
+	aux_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
 
 # Advanced Hulls
 # Command Stern - No weapons, extra Aux

@@ -661,7 +661,7 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_stern"
 	ai_tags = { gunship carrier }
 
-	prerequisites = { tech_battleship_hull_2 }
+	prerequisites = { tech_battleship_hull_1 }
 
 	component_slot = {
 		name = "SMALL_GUN_01"
@@ -707,6 +707,8 @@ ship_section_template = {
 	entity = "battleship_stern_L1_entity"
 	icon = "GFX_ship_part_core_stern"
 	ai_tags = { carrier }
+
+	prerequisites = { tech_battleship_hull_2 }
 
 	component_slot = {
 		name = "STRIKE_CRAFT_01"

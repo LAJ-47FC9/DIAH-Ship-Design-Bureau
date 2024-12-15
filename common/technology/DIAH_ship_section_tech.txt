@@ -56,14 +56,11 @@ tech_DIAH_cruiser_mod = {
 	is_rare = yes
 	prerequisites = { tech_cruiser_hull_1 tech_modular_engineering }
 	gateway = ship
-	potential = {
-		always = no
-	}
 
 	prereqfor_desc = {
 		ship = {
-			title = "TECH_UNLOCK_DIAH_CRUISER_XL_CONSTRUCTION_TITLE"
-			#desc = "TECH_UNLOCK_DIAH_CRUISER_XL_CONSTRUCTION_DESC"
+			title = "TECH_UNLOCK_DIAH_CRUISER_MOD_CONSTRUCTION_TITLE"
+			#desc = "TECH_UNLOCK_DIAH_CRUISER_MOD_CONSTRUCTION_DESC"
 		}
 	}
 
@@ -90,9 +87,6 @@ tech_DIAH_cruiser_mod_helldivers = {
 	tier = 3
 	weight = @tier3cost3
 	prerequisites = { tech_DIAH_cruiser_mod }
-	potential = {
-		always = no
-	}
 
 	weight_modifier = {
 		modifier = {

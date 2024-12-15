@@ -17,7 +17,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "DIAH_MISSILE_MODULE"
 	size = "small"
-	icon = ""
+	icon = "GFX_ship_part_swarmer_missile_1"
 	icon_frame = 1
 	power = 0
 
@@ -33,7 +33,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "DIAH_HELLDIVER_MODULE"
 	size = "small"
-	icon = ""
+	icon = "GFX_DIAH_icon_Helldivers"
 	icon_frame = 1
 	power = 0
 
@@ -50,7 +50,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "DIAH_MONITOR_MODULE"
 	size = "small"
-	icon = ""
+	icon = "GFX_ship_part_aura_hyperlane"
 	icon_frame = 1
 	power = 0
 
@@ -59,7 +59,6 @@ utility_component_template = {
 		ship_friendly_territory_tracking_mult = 0.1
 	}
 
-	prerequisites = {  }
 	component_set = "DIAH_cruiser_modules"
 }
 

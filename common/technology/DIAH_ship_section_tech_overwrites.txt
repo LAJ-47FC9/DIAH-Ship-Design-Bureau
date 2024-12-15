@@ -32,6 +32,20 @@ tech_corvette_hull_1 = {
 	ai_weight = {
 
 	}
+
+	technology_swap = {
+		name = tech_small_space_fauna_hull_1
+		inherit_icon = no
+		inherit_effects = no
+
+		trigger = {
+			is_beastmasters_empire = yes
+		}
+
+		modifier = {
+			small_space_fauna_ship_hull_mult = 0.1
+		}
+	}
 }
 
 tech_corvette_hull_2 = {
@@ -76,6 +90,20 @@ tech_corvette_hull_2 = {
 	ai_weight = {
 
 	}
+
+	technology_swap = {
+		name = tech_small_space_fauna_hull_2
+		inherit_icon = no
+		inherit_effects = no
+
+		trigger = {
+			is_beastmasters_empire = yes
+		}
+
+		modifier = {
+			small_space_fauna_ship_hull_mult = 0.1
+		}
+	}
 }
 
 ######################
@@ -112,6 +140,20 @@ tech_destroyer_hull_1 = {
 
 	ai_weight = {
 
+	}
+
+	technology_swap = {
+		name = tech_medium_space_fauna_hull_1
+		inherit_icon = no
+		inherit_effects = no
+
+		trigger = {
+			is_beastmasters_empire = yes
+		}
+
+		modifier = {
+			medium_space_fauna_ship_hull_mult = 0.1
+		}
 	}
 }
 
@@ -160,6 +202,20 @@ tech_destroyer_hull_2 = {
 	ai_weight = {
 
 	}
+
+	technology_swap = {
+		name = tech_medium_space_fauna_hull_2
+		inherit_icon = no
+		inherit_effects = no
+
+		trigger = {
+			is_beastmasters_empire = yes
+		}
+
+		modifier = {
+			medium_space_fauna_ship_hull_mult = 0.1
+		}
+	}
 }
 
 ####################
@@ -197,6 +253,20 @@ tech_cruiser_hull_1 = {
 
 	ai_weight = {
 
+	}
+
+	technology_swap = {
+		name = tech_large_space_fauna_hull_1
+		inherit_icon = no
+		inherit_effects = no
+
+		trigger = {
+			is_beastmasters_empire = yes
+		}
+
+		modifier = {
+			large_space_fauna_ship_hull_mult = 0.1
+		}
 	}
 }
 
@@ -246,6 +316,20 @@ tech_cruiser_hull_2 = {
 	ai_weight = {
 
 	}
+
+	technology_swap = {
+		name = tech_large_space_fauna_hull_2
+		inherit_icon = no
+		inherit_effects = no
+
+		trigger = {
+			is_beastmasters_empire = yes
+		}
+
+		modifier = {
+			large_space_fauna_ship_hull_mult = 0.1
+		}
+	}
 }
 
 #######################
@@ -282,6 +366,20 @@ tech_battleship_hull_1 = {
 
 	ai_weight = {
 
+	}
+
+	technology_swap = {
+		name = tech_extra_large_space_fauna_hull_1
+		inherit_icon = no
+		inherit_effects = no
+
+		trigger = {
+			is_beastmasters_empire = yes
+		}
+
+		modifier = {
+			extra_large_space_fauna_ship_hull_mult = 0.1
+		}
 	}
 }
 
@@ -329,6 +427,20 @@ tech_battleship_hull_2 = {
 
 	ai_weight = {
 
+	}
+
+	technology_swap = {
+		name = tech_extra_large_space_fauna_hull_2
+		inherit_icon = no
+		inherit_effects = no
+
+		trigger = {
+			is_beastmasters_empire = yes
+		}
+
+		modifier = {
+			extra_large_space_fauna_ship_hull_mult = 0.1
+		}
 	}
 }
 
@@ -379,6 +491,20 @@ tech_titan_hull_1 = {
 	ai_weight = {
 
 	}
+
+	technology_swap = {
+		name = tech_titanic_space_fauna_hull_1
+		inherit_icon = no
+		inherit_effects = no
+
+		trigger = {
+			is_beastmasters_empire = yes
+		}
+
+		modifier = {
+			titanic_space_fauna_ship_hull_mult = 0.1
+		}
+	}
 }
 
 tech_titan_hull_2 = {
@@ -423,5 +549,19 @@ tech_titan_hull_2 = {
 
 	ai_weight = {
 
+	}
+
+	technology_swap = {
+		name = tech_titanic_space_fauna_hull_2
+		inherit_icon = no
+		inherit_effects = no
+
+		trigger = {
+			is_beastmasters_empire = yes
+		}
+
+		modifier = {
+			titanic_space_fauna_ship_hull_mult = 0.1
+		}
 	}
 }

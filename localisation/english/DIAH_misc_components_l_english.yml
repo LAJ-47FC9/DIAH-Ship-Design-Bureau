@@ -10,7 +10,7 @@
  tech_DIAH_cruiser_mod_helldivers: "Rapid Tactical Asset Deployment"
  tech_DIAH_cruiser_mod_helldivers_desc: "Research has determined that the effectiveness of our orbital bombardment can be increased by use of ground-based target acquisition assets. In other words, let's put a bunch of people in tin cans, shoot them at a planet we're bombing, and hope for the best. For our glorious nation!"
  DIAH_RTAD_MODULE: "Rapid Tactical Asset Deployment Module"
- DIAH_RTAD_MODULE_DESC: "A module dedicated to maintaining a small division of ground-side target acquisition assistants - spotters, essentially - to enhance the precision of orbital bombardment. "
+ DIAH_RTAD_MODULE_DESC: "A module dedicated to maintaining a small division of ground-side target acquisition assistants - spotters, essentially - to enhance the precision of orbital bombardment."
  DIAH_MONITOR_MODULE: "Territory Patrol Module"
  DIAH_MONITOR_MODULE_DESC: "This module contains a vast array of comm uplinks and sensor modules to increase weapon range and accuracy, by receiving data from the incredible variety of sensor platforms deployed in inhabited systems. Obviously requires friendly relations with the owner to access."
  DIAH_MISSILE_MODULE: "Rapid Missile Fabrication Module"
@@ -29,7 +29,7 @@
  DIAH_CRUISER_XL_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$"
  DIAH_CRUISER_XL_ZERO_POINT_REACTOR_DESC: "A zero-point reactor, specifically designed to handle the Fomorian Cruiser's significant power demands."
  DIAH_CRUISER_XL_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$"
- DIAH_CRUISER_XL_DARK_MATTER_REACTOR_DESC: "Ancient dark matter technology, adapted to serve the Fomorian Cruiser and its "
+ DIAH_CRUISER_XL_DARK_MATTER_REACTOR_DESC: "Ancient dark matter technology, adapted to serve the Fomorian Cruiser."
 
 #    Thrusters
  DIAH_CRUISER_XL_SHIP_THRUSTER_1: "$SHIP_THRUSTER_1$"

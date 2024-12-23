@@ -14,10 +14,18 @@ tech_DIAH_overtuned_APP = {
 	tier = 4
 	category = { propulsion }
 	is_rare = yes
-	weight = @tier4cost3
+	weight = @tier4weight3
+	prerequisites = { tech_thrusters_4 }
 
 	potential = {
 		has_ascension_perk = ap_DIAH_overtuned_armoury
+	}
+
+	prereqfor_desc = {
+		custom = {
+			title = "tech_DIAH_unlock_sublight_APP"
+			#desc = "tech_DIAH_unlock_sublight_APP_desc"
+		}
 	}
 
 	weight_modifier = {
@@ -30,15 +38,27 @@ tech_DIAH_overtuned_APP = {
 
 tech_DIAH_overtuned_sublight_microjump = {
 	cost = @tier4cost3
-	area = physics
+	area = engineering
 	tier = 4
-	category = { particles }
+	category = { propulsion }
 	is_dangerous = yes
-	weight = @tier4cost3
+	weight = @tier4weight3
 	prerequisites = { tech_DIAH_overtuned_APP }
 
 	potential = {
 		has_ascension_perk = ap_DIAH_overtuned_armoury
+		NOR = {
+			has_technology = tech_DIAH_overtuned_sublight_masseffect
+			has_technology = tech_DIAH_overtuned_sublight_warp
+		}
+	}
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "tech_DIAH_unlock_sublight_microjump"
+			desc = "tech_DIAH_unlock_sublight_microjump_desc"
+		}
 	}
 
 	weight_modifier = {
@@ -51,15 +71,27 @@ tech_DIAH_overtuned_sublight_microjump = {
 
 tech_DIAH_overtuned_sublight_masseffect = {
 	cost = @tier4cost3
-	area = physics
+	area = engineering
 	tier = 4
-	category = { field_manipulation }
-	weight = @tier4cost3
+	category = { propulsion }
+	weight = @tier4weight3
 	is_dangerous = yes
 	prerequisites = { tech_DIAH_overtuned_APP }
 
 	potential = {
 		has_ascension_perk = ap_DIAH_overtuned_armoury
+		NOR = {
+			has_technology = tech_DIAH_overtuned_sublight_microjump
+			has_technology = tech_DIAH_overtuned_sublight_warp
+		}
+	}
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "tech_DIAH_unlock_sublight_masseffect"
+			desc = "tech_DIAH_unlock_sublight_masseffect_desc"
+		}
 	}
 
 	weight_modifier = {
@@ -72,15 +104,27 @@ tech_DIAH_overtuned_sublight_masseffect = {
 
 tech_DIAH_overtuned_sublight_warp = {
 	cost = @tier4cost3
-	area = physics
+	area = engineering
 	tier = 4
-	category = { field_manipulation }
-	weight = @tier4cost3
+	category = { propulsion }
+	weight = @tier4weight3
 	is_dangerous = yes
 	prerequisites = { tech_DIAH_overtuned_APP }
 
 	potential = {
 		has_ascension_perk = ap_DIAH_overtuned_armoury
+		NOR = {
+			has_technology = tech_DIAH_overtuned_sublight_masseffect
+			has_technology = tech_DIAH_overtuned_sublight_microjump
+		}
+	}
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "tech_DIAH_unlock_sublight_warp"
+			desc = "tech_DIAH_unlock_sublight_warp_desc"
+		}
 	}
 
 	weight_modifier = {

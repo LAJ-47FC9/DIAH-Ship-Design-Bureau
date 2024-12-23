@@ -1,7 +1,31 @@
 spriteTypes = {
-
+	# RTAD tech icon
 	spriteType = {
 		name = "GFX_DIAH_icon_Helldivers"
-		texturefile = "gfx/interface/icons/technologies/tech_DIAH_cruiser_mod_helldivers.dds"
+		texturefile = "gfx/interface/icons/technologies/DIAH_cruiser_mod_helldivers_icon.dds"
+	}
+
+	# Sublight Warp icon
+	spriteType = {
+		name = "GFX_DIAH_overtuned_sublight_warp"
+		texturefile = "gfx/interface/icons/technologies/DIAH_overtuned_sublight_warp_icon.dds"
+	}
+
+	# Microjump icon
+	spriteType = {
+		name = "GFX_DIAH_overtuned_sublight_microjump"
+		texturefile = "gfx/interface/icons/technologies/DIAH_overtuned_sublight_microjump_icon.dds"
+	}
+
+	# Mass effect icon
+	spriteType = {
+		name = "GFX_DIAH_overtuned_sublight_masseffect"
+		texturefile = "gfx/interface/icons/technologies/DIAH_overtuned_sublight_masseffect_icon.dds"
+	}
+
+	# FE Junk tradition background
+	spriteType = {
+		name = "GFX_tradition_DIAH_unlock_FE_junk_background"
+		texturefile = "gfx/interface/tiles/tradition_DIAH_unlock_FE_junk.dds"
 	}
 }

@@ -1,0 +1,84 @@
+tr_diah_fe_adopt = {
+	on_enabled = {
+		add_tech_progress = {
+			tech = tech_dark_matter_power_core
+			progress = 0.1
+		}
+	}
+
+	possible = {
+		has_ascension_perk = ap_DIAH_overtuned_armoury
+	}
+}
+
+tr_diah_fe_shields = {
+	on_enabled = {
+		add_tech_progress = {
+			tech = tech_dark_matter_deflector
+			progress = 0.1
+		}
+	}
+
+	possible = {
+		has_technology = tech_dark_matter_power_core
+	}
+}
+
+tr_diah_fe_vrooms = {
+	on_enabled = {
+		add_tech_progress = {
+			tech = tech_dark_matter_propulsion
+			progress = 0.1
+		}
+	}
+
+	possible = {
+		has_tradition = tr_diah_fe_shields
+		has_technology = tech_dark_matter_deflector
+	}
+}
+
+tr_diah_fe_escort = {
+	on_enabled = {
+		add_tech_progress = {
+			tech = tech_cosmogenesis_escort
+			progress = 0.1
+		}
+	}
+}
+
+tr_diah_fe_battlecruiser = {
+	on_enabled = {
+		add_tech_progress = {
+			tech = tech_cosmogenesis_battlecruiser
+			progress = 0.1
+		}
+	}
+
+	possible = {
+		has_tradition = tr_diah_fe_escort
+		has_technology = tech_cosmogenesis_escort
+	}
+}
+
+tr_diah_fe_titan = {
+	on_enabled = {
+		add_tech_progress = {
+			tech = tech_cosmogenesis_FE_titan
+			progress = 0.1
+		}
+	}
+
+	possible = {
+		has_tradition = tr_diah_fe_battlecruiser
+		has_technology = tech_cosmogenesis_battlecruiser
+	}
+}
+
+tr_diah_fe_finish = {
+	modifier = {
+		ascension_perks_add = 1
+		damage_vs_country_type_fallen_empire_mult = 0.25
+		damage_vs_country_type_awakened_fallen_empire_mult = 0.25
+	}
+}

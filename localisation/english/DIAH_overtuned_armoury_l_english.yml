@@ -3,23 +3,60 @@
 # Overtuned Armoury perk
  ap_DIAH_overtuned_armoury: "Fund the Futuristics Division"
  ap_DIAH_overtuned_armoury_desc: "For a good while, you've been getting some odd proposals from a newly formed R&D group in the nation: the Futuristics Division. Their claim to fame is that they do not follow, quote-unquote, \"conventional thinking\" - ignoring established doctrine to put together truly new technologies. While most of their output until now has been unworkable rubbish, this latest idea might actually have some merit…"
- DIAH_armoury_overtuned: "Allows access to §Mspecial technologies§! that grant §Spowerful§! but §Pcostly§! ship components.\nGuarantees the following research options:\n£physics_research£§Y$tech_DIAH_overtuned_GWD$§\nAllows the following research options:\n£engineering_research£§Y$tech_DIAH_overtuned_APP$§"
+ DIAH_armoury_overtuned: "Allows access to §Mspecial technologies§! that grant §Spowerful§! but §Pcostly§! ship components.\nGuarantees the following research options:\n£physics_research£$tech_DIAH_overtuned_GWD$\nAllows the following research options:\n£engineering_research£$tech_DIAH_overtuned_APP$\n£physics_research£$tech_DIAH_overtuned_astral_hyperdrive$"
 
 # Techs
+#    GWD
  tech_DIAH_overtuned_GWD: "Shield Deflection Refactoring"
  tech_DIAH_overtuned_GWD_desc: "The GWD is the first project of the Futuristics Division to be approved by the government. Rather than traditional shield systems, which are focused on stopping projectiles entirely, the GWD uses §Sgravitational waves§! to §Sdeflect§! incoming projectiles and diffuse beam weapons, in the hope of causing them to miss entirely, or at least blunt their damage upon impact."
 
+#    Alternative Propulsion Proposals and friends
  tech_DIAH_overtuned_APP: "Alternative Propulsion Proposals"
  tech_DIAH_overtuned_APP_desc: "All sublight engines work on the principle of, in essence, throwing hot bits of stuff out the back. This proposal from the Futuristics Division aims to change that."
+ tech_DIAH_unlock_sublight_APP: "This tech will unlock unique developments in sublight technology."
  tech_DIAH_overtuned_sublight_microjump: "Short-Scale Jumps"
  tech_DIAH_overtuned_sublight_microjump_desc: "Utilising jump technology on a smaller scale, this engine concept aims to propel a ship across a system through a series of micro-jumps, each no more than a few thousand kilometres. Unwanted encounters with extradimensional beings have been deemed "highly unlikely" thanks to the relatively short distance of jumps."
+ tech_DIAH_unlock_sublight_microjump: "§HUnlocks Component:§! Microjump Thrusters\n§PWARNING:§! Researching this tech will prevent you from unlocking Sublight Warp and Mass Effect Thrusters!"
+ tech_DIAH_unlock_sublight_microjump_desc: "§HMicrojump Thruster§!\nThese ship thrusters use downscaled jump technology to translate a ship across a star system - also giving them a bonus to disengagement in combat. If a ship is also equipped with an FTL jump engine, the FTL engine will be able to draw from the sublight engine's capacitors, reducing jump cooldown.\n§PWARNING:§! Researching this tech will prevent you from unlocking Sublight Warp and Mass Effect Thrusters!"
  tech_DIAH_overtuned_sublight_warp: "Warp Theory"
  tech_DIAH_overtuned_sublight_warp_desc: "As it turns out, Alcubierre was half-right. While faster-than-light space warping remains out of our reach, the Futuristics Division have provided us with the next-best thing: improved in-system flight! Use the power of altering spacetime to move across systems with speed unheard of. Refinements to the design have eliminated the possibility of the warp field catching interplanetary debris and firing it like a relativistic shotgun upon the warp bubble collapsing."
+ tech_DIAH_unlock_sublight_warp: "§HUnlocks Component:§! Warp Thrusters\n§PWARNING:§! Researching this tech will prevent you from unlocking Mass Effect Thrusters and Microjump Thrusters!"
+ tech_DIAH_unlock_sublight_warp_desc: "§HWarp Thruster§!\nThese ship thrusters use warp technology to generate incredible thrust.\n§PWARNING:§! Researching this tech will prevent you from unlocking Mass Effect Thrusters and Microjump Thrusters!"
  tech_DIAH_overtuned_sublight_masseffect: "Mass Effect Fields"
  tech_DIAH_overtuned_sublight_masseffect_desc: "Inertial dampening technology makes use of fields that temporarily reduce an object's inertial mass, allowing them to more easily gain momentum. You'd think the propulsion capabilities of such a technology would be obvious. Frankly, you should be offended that it took this long to come up with."
+ tech_DIAH_unlock_sublight_masseffect: "§HUnlocks Component:§! Mass Effect Thrusters\n§PWARNING:§! Researching this tech will prevent you from unlocking Sublight Warp and Microjump Thrusters!"
+ tech_DIAH_unlock_sublight_masseffect_desc: "§HMass Effect Thruster§!\nThese ship thrusters use warp technology to generate incredible thrust.\n§PWARNING:§! Researching this tech will prevent you from unlocking Sublight Warp and Microjump Thrusters!"
 
+#    Astral FTL
  tech_DIAH_overtuned_astral_hyperdrive: "Astral Hyperfields"
  tech_DIAH_overtuned_astral_hyperdrive_desc: "This novel FTL engine uses astral threads to generate an ultra-stable hyperspace field, allowing for enhanced speed within hyperlanes and easier access to hyperspace in case of emergency. With further research, it may be possible to send entire starships through astral rifts, allowing for a new age of interdimensional exploration, expansion, and exploitation."
  tech_DIAH_overtuned_astral_jumpdrive: "Astral Wormhole Generation"
  tech_DIAH_overtuned_astral_jumpdrive_desc: "Similar to the Astral Hyperdrive, the Astral Wormhole Drive is a jump engine that uses astral threads to generate long-range subspace wormholes. With time, the Futuristics Division is sure that they will be able to use these engines to generate astral rifts from whole cloth (pun very much intended, according to them). The multiverse will be ours!"
+ tech_DIAH_overtuned_astral_psi_jumpdrive: "Psycho-Astral Synthesis"
+ tech_DIAH_overtuned_astral_psi_jumpdrive_desc: "The ultimate in FTL technology. Using astral thread weaving to enhance the jump generation abilities of our psychics, we can now jump our ships across the galaxy with ease, and our ambitions of multiversal travel grow ever closer..."
+
+# Antediluvian Tech tradition tree
+ tradition_DIAH_unlock_FE_junk: "Antediluvian Tech"
+ tradition_DIAH_unlock_FE_junk_desc: "As it turns out, the Fallen Empires and their technologies aren't too enigmatic. You just have to put yourself in the headspace of a fantastically advanced species that had dominion of the skies when we were nothing more than protozoa crawling out of a primordial sea. Simple!\n...\nOn second thoughts, let's just let the Futuristics Division do their thing. For starters, their starship reactors would be an enormous boon..."
+
+ tr_diah_fe_adopt: "Antediluvian Techs"
+ tr_diah_fe_adopt_desc: "$tradition_DIAH_unlock_FE_junk_desc$\n\n$tr_diah_fe_adopt_effect$\n\n$tr_diah_fe_finish_effect$"
+ tr_diah_fe_adopt_effect: "§E$TRADITIONS_ADOPT$:§!\nGuarantees the following research options:\n£physics_research£$tech_dark_matter_power_core$"
+ tr_diah_fe_shields: "Antediluvian Defences"
+ tr_diah_fe_shields_desc: "Guarantees the following research options:\n£physics_research£$tech_dark_matter_deflector$"
+ tr_diah_fe_shields_delayed: "Much like their reactors, Fallen Empire technology makes heavy use of dark matter to produce powerful shielding. "
+ tr_diah_fe_vrooms: "Antediluvian Propulsion"
+ tr_diah_fe_vrooms_desc: "Guarantees the following research options:\n£engineering_research£$tech_dark_matter_propulsion$"
+ tr_diah_fe_vrooms_delayed: "We know the story by now. Fallen Empire, dark matter, thrusters, much vroom. Let's just make the darned things already!"
+ tr_diah_fe_escort: "Antediluvian Corvette Design"
+ tr_diah_fe_escort_desc: "Guarantees the following research options:\n£engineering_research£$tech_cosmogenesis_escort$"
+ tr_diah_fe_escort_delayed: "The Escort is the bread and butter of the Fallen Empire space forces, performing in a similar role to our corvettes and destroyers. Having access to these would be an obvious boon to our own space force."
+ tr_diah_fe_battlecruiser: "Antediluvian Cruiser Design"
+ tr_diah_fe_battlecruiser_desc: "Guarantees the following research options:\n£engineering_research£$tech_cosmogenesis_battlecruiser$"
+ tr_diah_fe_battlecruiser_delayed: "The Battlecruiser fills a niche roughly similar to our cruisers and battleships. While an unconventional decision, it seems to work well for them."
+ tr_diah_fe_titan: "Antediluvian Titan Design"
+ tr_diah_fe_titan_desc: "Guarantees the following research options:\n£engineering_research£$tech_cosmogenesis_FE_titan$"
+ tr_diah_fe_titan_delayed: "These ships serve in a similar role to our titans. However, to compare the two is insulting to the Fallen Titan, as it performs better in basically all areas - except for the cost... Developing these would be an immense boon to our fleet capabilities."
+ tr_diah_fe_finish: "Antediluvian Tech Finished"
+ tr_diah_fe_finish_effect: "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_diah_fe_adopt$ will grant us the following:"
  

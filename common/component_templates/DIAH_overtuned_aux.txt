@@ -1,0 +1,18 @@
+utility_component_template = {
+	key = "DIAH_overtuned_GWD"
+	size = aux
+	icon = ""
+	icon_frame = 1
+	power = 20
+	resources = {
+		category = ship_components
+		alloys = 20
+	}
+
+	prerequisites = { tech_DIAH_overtuned_GWD }
+
+	modifier = {
+		ship_shield_mult = -0.25
+		ship_evasion_mult = 0.1
+	}
+}

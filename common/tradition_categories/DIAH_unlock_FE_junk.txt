@@ -1,0 +1,20 @@
+tradition_DIAH_unlock_FE_junk = {
+	tree_template = "tree_11_111"
+	adoption_bonus = "tr_diah_fe_adopt"
+	finish_bonus = "tr_diah_fe_finish"
+	traditions = {
+		"tr_diah_fe_shields"
+		"tr_diah_fe_vrooms"
+		"tr_diah_fe_escort"
+		"tr_diah_fe_battlecruiser"
+		"tr_diah_fe_titan"
+	}
+
+	potential = {
+		has_machine_age_dlc = yes
+	}
+
+	ai_weight = {
+		factor = 0
+	}
+}

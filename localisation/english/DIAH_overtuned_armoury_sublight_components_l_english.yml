@@ -1,0 +1,43 @@
+﻿l_english:
+
+ # Sublight Warp
+ DIAH_overtuned_baby_sublight_warp: "Warp Thrusters"
+ DIAH_overtuned_baby_sublight_warp_desc: "These ship thrusters use warp technology to generate incredible thrust."
+ DIAH_overtuned_destroyer_sublight_warp: "$DIAH_overtuned_baby_sublight_warp$"
+ DIAH_overtuned_destroyer_sublight_warp_desc: "$DIAH_overtuned_baby_sublight_warp_desc$"
+ DIAH_overtuned_cruiser_sublight_warp: "$DIAH_overtuned_baby_sublight_warp$"
+ DIAH_overtuned_cruiser_sublight_warp_desc: "$DIAH_overtuned_baby_sublight_warp_desc$"
+ DIAH_overtuned_battleship_sublight_warp: "$DIAH_overtuned_baby_sublight_warp$"
+ DIAH_overtuned_battleship_sublight_warp_desc: "$DIAH_overtuned_baby_sublight_warp_desc$"
+ DIAH_overtuned_titan_sublight_warp: "$DIAH_overtuned_baby_sublight_warp$"
+ DIAH_overtuned_titan_sublight_warp_desc: "$DIAH_overtuned_baby_sublight_warp_desc$"
+ DIAH_overtuned_jugg_sublight_warp: "$DIAH_overtuned_baby_sublight_warp$"
+ DIAH_overtuned_jugg_sublight_warp_desc: "$DIAH_overtuned_baby_sublight_warp_desc$"
+
+ # Mass Effect
+ DIAH_overtuned_baby_sublight_masseffect: "Mass Effect Thrusters"
+ DIAH_overtuned_baby_sublight_masseffect_desc: "These ship thrusters use the same principle that powers inertial negation technology to lower the ship's inertial mass, giving extra bang for one's delta-V. A welcome side effect is that ships become fantastically manoeuvrable under effects of a mass effect field, increasing evasion."
+ DIAH_overtuned_destroyer_sublight_masseffect: "$DIAH_overtuned_baby_sublight_masseffect$"
+ DIAH_overtuned_destroyer_sublight_masseffect_desc: "$DIAH_overtuned_baby_sublight_masseffect_desc$"
+ DIAH_overtuned_cruiser_sublight_masseffect: "$DIAH_overtuned_baby_sublight_masseffect$"
+ DIAH_overtuned_cruiser_sublight_masseffect_desc: "$DIAH_overtuned_baby_sublight_masseffect_desc$"
+ DIAH_overtuned_battleship_sublight_masseffect: "$DIAH_overtuned_baby_sublight_masseffect$"
+ DIAH_overtuned_battleship_sublight_masseffect_desc: "$DIAH_overtuned_baby_sublight_masseffect_desc$"
+ DIAH_overtuned_titan_sublight_masseffect: "$DIAH_overtuned_baby_sublight_masseffect$"
+ DIAH_overtuned_titan_sublight_masseffect_desc: "$DIAH_overtuned_baby_sublight_masseffect_desc$"
+ DIAH_overtuned_jugg_sublight_masseffect: "$DIAH_overtuned_baby_sublight_masseffect$"
+ DIAH_overtuned_jugg_sublight_masseffect_desc: "$DIAH_overtuned_baby_sublight_masseffect_desc$"
+
+ # Microjump
+ DIAH_overtuned_baby_sublight_microjump: "Microjump Thrusters"
+ DIAH_overtuned_baby_sublight_microjump_desc: "These ship thrusters use downscaled jump technology to translate a ship across a star system - also giving them a bonus to disengagement in combat. If a ship is also equipped with an FTL jump engine, the FTL engine will be able to draw from the sublight engine's capacitors, reducing jump cooldown."
+ DIAH_overtuned_destroyer_sublight_microjump: "$DIAH_overtuned_baby_sublight_microjump$"
+ DIAH_overtuned_destroyer_sublight_microjump_desc: "$DIAH_overtuned_baby_sublight_microjump_desc$"
+ DIAH_overtuned_cruiser_sublight_microjump: "$DIAH_overtuned_baby_sublight_microjump$"
+ DIAH_overtuned_cruiser_sublight_microjump_desc: "$DIAH_overtuned_baby_sublight_microjump_desc$"
+ DIAH_overtuned_battleship_sublight_microjump: "$DIAH_overtuned_baby_sublight_microjump$"
+ DIAH_overtuned_battleship_sublight_microjump_desc: "$DIAH_overtuned_baby_sublight_microjump_desc$"
+ DIAH_overtuned_titan_sublight_microjump: "$DIAH_overtuned_baby_sublight_microjump$"
+ DIAH_overtuned_titan_sublight_microjump_desc: "$DIAH_overtuned_baby_sublight_microjump_desc$"
+ DIAH_overtuned_jugg_sublight_microjump: "$DIAH_overtuned_baby_sublight_microjump$"
+ DIAH_overtuned_jugg_sublight_microjump_desc: "$DIAH_overtuned_baby_sublight_microjump_desc$"

@@ -8,6 +8,7 @@ tr_diah_fe_adopt = {
 
 	possible = {
 		has_ascension_perk = ap_DIAH_overtuned_armoury
+		has_technology = tech_mine_dark_matter
 	}
 }
 

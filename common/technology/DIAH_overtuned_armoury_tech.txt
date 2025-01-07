@@ -24,7 +24,6 @@ tech_DIAH_overtuned_APP = {
 	prereqfor_desc = {
 		custom = {
 			title = "tech_DIAH_unlock_sublight_APP"
-			#desc = "tech_DIAH_unlock_sublight_APP_desc"
 		}
 	}
 
@@ -125,6 +124,105 @@ tech_DIAH_overtuned_sublight_warp = {
 			title = "tech_DIAH_unlock_sublight_warp"
 			desc = "tech_DIAH_unlock_sublight_warp_desc"
 		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+	}
+}
+
+tech_DIAH_overtuned_APP_DM = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	category = { propulsion }
+	is_rare = yes
+	weight = @tier5weight3
+	prerequisites = { tech_dark_matter_propulsion tech_DIAH_overtuned_APP }
+
+	potential = {
+		has_ascension_perk = ap_DIAH_overtuned_armoury
+		OR = {
+			has_technology = tech_DIAH_overtuned_sublight_masseffect
+			has_technology = tech_DIAH_overtuned_sublight_microjump
+			has_technology = tech_DIAH_overtuned_sublight_warp
+		}
+	}
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "tech_DIAH_unlock_sublight_APP_DM"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+	}
+}
+
+# Astral FTL
+tech_DIAH_overtuned_astral_hyperdrive = {
+	cost = @tier4cost3
+	area = physics
+	tier = 4
+	category = { field_manipulation }
+	weight = @tier4weight3
+	is_rare = yes
+
+	potential = {
+		has_ascension_perk = ap_DIAH_overtuned_armoury
+		has_astral_planes_dlc = yes
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+	}
+}
+
+tech_DIAH_overtuned_astral_jumpdrive = {
+	cost = @tier5cost2
+	area = physics
+	tier = 5
+	category = { particles }
+	weight = @tier5weight2
+	is_rare = yes
+	prerequisites = { tech_DIAH_overtuned_astral_hyperdrive tech_jump_drive_1 }
+
+	potential = {
+		has_ascension_perk = ap_DIAH_overtuned_armoury
+		has_astral_planes_dlc = yes
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+	}
+}
+
+tech_DIAH_overtuned_astral_psi_jumpdrive = {
+	cost = @tier5cost3
+	area = society
+	tier = 5
+	category = { psionics }
+	weight = @tier5weight3
+	is_rare = yes
+	prerequisites = { tech_DIAH_overtuned_astral_jumpdrive tech_psi_jump_drive_1 }
+
+	potential = {
+		has_ascension_perk = ap_DIAH_overtuned_armoury
+		has_astral_planes_dlc = yes
 	}
 
 	weight_modifier = {

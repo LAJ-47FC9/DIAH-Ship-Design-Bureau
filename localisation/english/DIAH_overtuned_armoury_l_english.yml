@@ -27,6 +27,10 @@
  tech_DIAH_unlock_sublight_masseffect: "§HUnlocks Component:§! Mass Effect Thrusters\n§PWARNING:§! Researching this tech will prevent you from unlocking Sublight Warp and Microjump Thrusters!"
  tech_DIAH_unlock_sublight_masseffect_desc: "§HMass Effect Thruster§!\nThese ship thrusters use warp technology to generate incredible thrust.\n§PWARNING:§! Researching this tech will prevent you from unlocking Sublight Warp and Microjump Thrusters!"
 
+ tech_DIAH_overtuned_APP_DM: "APP: Dark Matter Enhancement"
+ tech_DIAH_overtuned_APP_DM_desc: "The discovery of Dark Matter Propulsion has thrown the Futuristics Division into something of a frenzy. Their representative came into your office this morning and angrily shoved a proposal onto your desk, muttering something about 'having to be better than those ancient layabouts'. Surely nothing to be concerned about."
+ tech_DIAH_unlock_sublight_APP_DM: "This tech will unlock a new version of your chosen Alternative Propulsion Proposal, enhanced with dark matter technology."
+
 #    Astral FTL
  tech_DIAH_overtuned_astral_hyperdrive: "Astral Hyperfields"
  tech_DIAH_overtuned_astral_hyperdrive_desc: "This novel FTL engine uses astral threads to generate an ultra-stable hyperspace field, allowing for enhanced speed within hyperlanes and easier access to hyperspace in case of emergency. With further research, it may be possible to send entire starships through astral rifts, allowing for a new age of interdimensional exploration, expansion, and exploitation."
@@ -58,5 +62,5 @@
  tr_diah_fe_titan_desc: "Guarantees the following research options:\n£engineering_research£$tech_cosmogenesis_FE_titan$"
  tr_diah_fe_titan_delayed: "These ships serve in a similar role to our titans. However, to compare the two is insulting to the Fallen Titan, as it performs better in basically all areas - except for the cost... Developing these would be an immense boon to our fleet capabilities."
  tr_diah_fe_finish: "Antediluvian Tech Finished"
- tr_diah_fe_finish_effect: "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_diah_fe_adopt$ will grant us the following:"
+ tr_diah_fe_finish_effect: "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_diah_fe_adopt$ will grant us the following:\nDamage to Fallen Empires: +25%\nDamage to Awakened Empires: +25%"
  

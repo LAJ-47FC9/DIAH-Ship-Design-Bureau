@@ -9,6 +9,7 @@ tr_diah_fe_adopt = {
 	possible = {
 		has_ascension_perk = ap_DIAH_overtuned_armoury
 		has_technology = tech_mine_dark_matter
+		has_technology = tech_zero_point_power
 	}
 }
 
@@ -22,6 +23,7 @@ tr_diah_fe_shields = {
 
 	possible = {
 		has_technology = tech_dark_matter_power_core
+		has_technology = tech_shields_5
 	}
 }
 
@@ -36,6 +38,7 @@ tr_diah_fe_vrooms = {
 	possible = {
 		has_tradition = tr_diah_fe_shields
 		has_technology = tech_dark_matter_deflector
+		has_technology = tech_thrusters_4
 	}
 }
 
@@ -45,6 +48,10 @@ tr_diah_fe_escort = {
 			tech = tech_cosmogenesis_escort
 			progress = 0.1
 		}
+	}
+
+	possible = {
+		has_technology = tech_dark_matter_power_core
 	}
 }
 
@@ -59,6 +66,7 @@ tr_diah_fe_battlecruiser = {
 	possible = {
 		has_tradition = tr_diah_fe_escort
 		has_technology = tech_cosmogenesis_escort
+		has_technology = tech_battleships
 	}
 }
 
@@ -73,6 +81,7 @@ tr_diah_fe_titan = {
 	possible = {
 		has_tradition = tr_diah_fe_battlecruiser
 		has_technology = tech_cosmogenesis_battlecruiser
+		has_technology = tech_titans
 	}
 }
 

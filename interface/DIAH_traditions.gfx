@@ -1,0 +1,48 @@
+spriteTypes = {
+
+	# Antediluvian Tech background
+	spriteType = {
+		name = "GFX_tradition_category_bg_tradition_DIAH_unlock_FE_junk"
+		textureFile = "gfx/interface/tiles/tradition_DIAH_unlock_FE_junk.dds"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tradition_category_tile_tradition_DIAH_unlock_FE_junk"
+		textureFile = "gfx/interface/tiles/tradition_DIAH_unlock_FE_junk.dds"
+		borderSize = { x=140 y=140 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	# Antediluvian Tech cat icon
+
+	# Antediluvian Shields
+	spriteType = {
+		name = "GFX_tr_diah_fe_shields"
+		textureFile = "gfx/interface/icons/traditions/tr_diah_fe_shields.dds"
+	}
+
+	# Antediluvian Engines
+	spriteType = {
+		name = "GFX_tr_diah_fe_vrooms"
+		textureFile = "gfx/interface/icons/traditions/tr_diah_fe_vrooms.dds"
+	}
+
+	# Escorts
+	spriteType = {
+		name = "GFX_tr_diah_fe_escort"
+		textureFile = "gfx/interface/icons/traditions/tr_diah_fe_escort.dds"
+	}
+
+	# Battlecruisers
+	spriteType = {
+		name = "GFX_tr_diah_fe_battlecruiser"
+		textureFile = "gfx/interface/icons/traditions/tr_diah_fe_battlecruiser.dds"
+	}
+
+	# Titans
+	spriteType = {
+		name = "GFX_tr_diah_fe_titan"
+		textureFile = "gfx/interface/icons/traditions/tr_diah_fe_titan.dds"
+	}
+
+}
